@@ -1,7 +1,7 @@
 
 # IDESecurityPrivacy Install Instructions
 
-For appendix visit [Supplementary Discussion (Appendix)](#supplementary-discussion-appendix)
+For appendix see [readme.md](https://github.com/paper-submission-0/IDESecurityPrivacy/blob/main/readme.md)
 
 A research-oriented toolkit for collecting, processing, and analyzing Reddit discussions related to **security and privacy risks in LLM-powered IDEs (LIDEs)**.
 The project supports downloading Reddit posts/comments, organizing datasets, and preparing them for further analysis such as classification, annotation, or empirical studies.
