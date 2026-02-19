@@ -30,14 +30,14 @@ venv\Scripts\activate        # Windows
 
 ## 2. Data Collection
 
-### Use `main.py` to Download Posts or Comments
+### Use `download.py` to Download Posts or Comments
 
-`main.py` is the primary entry point for data collection.
+`download.py` is the primary entry point for data collection.
 
 Typical usage:
 
 ```bash
-python main.py
+python download.py
 ```
 
 ## 4. Project Structure
@@ -45,7 +45,7 @@ python main.py
 ```
 IDESecurityPrivacy/
 │
-├── main.py                # Entry point for downloading Reddit data
+├── download.py                # Entry point for downloading Reddit data
 ├── references.txt         # Python dependency list
 ├── data/                  # Downloaded posts/comments
 └── README.md
