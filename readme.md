@@ -5,6 +5,7 @@
   - [C. Post and Comment Analysis](#c-post-and-comment-analysis)
   - [D. LIDE Features](#d-lide-features)
 - [References](#references)
+- [Installation Instructions](https://github.com/paper-submission-0/IDESecurityPrivacy/blob/main/instructions.md)
 
 
 
