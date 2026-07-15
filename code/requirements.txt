@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+plotly
+kaleido
+requests
+ollama
+scipy
+tqdm
+transformers
+torch
+ipython

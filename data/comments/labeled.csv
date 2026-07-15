@@ -1,0 +1,1319 @@
+post_id,comment_id,comment_index,corrected_topics,classification_status,review,inital_topic_by_LLM
+1qb7402,nz9213z,3,Secure IDE Configuration,,,Secure IDE Configuration
+1p6xovt,nquy4n9,1,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1p8nytd,nr6k0c9,2,Use Local LLM,,,Use Local LLM
+1p8nytd,nr6wf58,6,Sensitive File Protection,,,Sensitive File Protection
+1r8x8vf,o68an7y,1,Disable Telemetry,,,Disable Telemetry
+1pm2gjl,ntx85gd,0,Disable Telemetry,,,Disable Telemetry
+1pm2gjl,nutxjqs,4,Secure IDE Configuration,,wrong tag,Refer to Documentation
+1r8x8vf,o698gau,8,Disable Telemetry,,,Disable Telemetry
+1r8x8vf,o69gdtb,12,Disable Telemetry;Use Local LLM,,,Disable Telemetry;Use Local LLM
+1s6o2rr,od3kbf4,1,Secure IDE Configuration,,,Secure IDE Configuration
+1s6o2rr,od6ss5k,6,Secure IDE Configuration,,,Secure IDE Configuration
+1qjizpb,o14tm18,12,Manual Code Verification,,,Manual Code Verification
+1qjizpb,o148hvg,11,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1qjizpb,o1a7iwr,15,Logging and Monitoring,,,Logging and Monitoring
+1p90xsq,nrbfe3w,3,Use Local LLM,,,Use Local LLM
+1p90xsq,nrbh1un,5,Consult Vendors,,,Consult Vendors
+1p90xsq,nrb1rq5,0,Sandboxing,,,Sandboxing
+1p90xsq,nrn5hmt,26,Refer to Documentation,,wrong label/it asks the user to know about prompt injection,Refer to Documentation
+1pt3vcm,nve75c7,2,Use Version Control,,,Use Version Control
+1pt3vcm,nve95lx,5,Use Version Control,,,Use Version Control
+1pt3vcm,nvee0cn,9,Use Version Control,,,Use Version Control
+1pt3vcm,nvei8a3,15,Manual Code Verification;Use Version Control,,"Interesting case, refers to Agents.MD",Manual Code Verification;Use Version Control
+1pt3vcm,nveovfb,19,Use Version Control,,,Use Version Control
+1pt3vcm,nvehteq,12,Use Version Control,,,Use Version Control
+1pt3vcm,nvettwn,23,Use Version Control,,,Use Version Control
+1pt3vcm,nvf4fmz,26,Secure IDE Configuration,,,Secure IDE Configuration
+1pt3vcm,nvf4xn7,27,Sandboxing,,,Sandboxing
+1pt3vcm,nvf92zm,30,Secure IDE Configuration,,,Secure IDE Configuration
+1pt3vcm,nvfe265,32,Secure IDE Configuration,,,Secure IDE Configuration
+1pt3vcm,nvf8kld,29,Secure IDE Configuration,,,Secure IDE Configuration
+1pt3vcm,nvfvfl9,34,Use Version Control,,,Use Version Control
+1pt3vcm,nvg34hq,38,Use Version Control,,,Use Version Control
+1pt3vcm,nvglzk1,44,Secure IDE Configuration,,,Secure IDE Configuration
+1pt3vcm,nvhsq51,46,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1pt3vcm,nvnr0w4,50,Sandboxing,,,Sandboxing
+1pt3vcm,nw7vn26,53,Secure IDE Configuration;Use Version Control,,refers to Agents.md,Refer to Documentation;
+1pt3vcm,nvoggtd,52,Secure IDE Configuration;Use Version Control,,refers to Agents.md,Use Version Control
+1qdzhuf,nztncm6,1,Sandboxing,,,Sandboxing
+1qdzhuf,nzut9vg,5,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1qdzhuf,nztn9z0,0,Use Version Control,,,Use Version Control
+1qdzhuf,nzvv2it,6,Use Version Control,,,Use Version Control
+1qdzhuf,nzttkti,3,Secure IDE Configuration,,,Secure IDE Configuration
+1qdzhuf,nzw9wcs,9,Use Version Control,,,Use Version Control
+1qdzhuf,nzw8fzy,8,Use Version Control,,,Use Version Control
+1qdzhuf,nzwaeg7,10,Use Version Control,,,Use Version Control
+1qdzhuf,nztyldn,4,Use Version Control,,,Use Version Control
+1qdzhuf,nzwowfy,11,Use Version Control,,,Use Version Control
+1qo8rk8,o1zkpoh,1,Sandboxing,,,Sandboxing
+1qo8rk8,o1zkp9h,0,Secure IDE Configuration,,,Secure IDE Configuration
+1qdzhuf,o0fy0cf,20,Use Version Control,,,Use Version Control
+1qdzhuf,nzz9mtm,12,Sensitive File Protection,,,Sensitive File Protection
+1qo8rk8,o22hhxn,9,Secure IDE Configuration,,,Secure IDE Configuration
+1qo8rk8,o20fuvx,7,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1qo8rk8,o1znxi0,3,Use Version Control,,,Use Version Control
+1qo8rk8,o20d09x,6,Secure IDE Configuration,,,Secure IDE Configuration
+1qo8rk8,o23kefv,10,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1qo8rk8,o28968y,24,Manual Code Verification,,,Manual Code Verification
+1qo8rk8,o2r3mns,26,Use Version Control,,,Use Version Control
+1qo8rk8,o2814hn,23,Refer to Documentation,,,Refer to Documentation
+1qo8rk8,o2rk2x5,30,Use Version Control,,,Use Version Control
+1qo8rk8,o2rpv4j,31,Use Version Control,,,Use Version Control
+1s4agur,oclp8ao,4,Consult Vendors,,,Consult Vendors
+1pmfi7y,ntzl1g9,3,Check Organizational Compliance;Logging and Monitoring,,,Check Organizational Compliance;Logging and Monitoring
+1pmfi7y,ntzhp9y,1,Check Organizational Compliance;Secure IDE Configuration,,,Check Organizational Compliance;Secure IDE Configuration
+1pmfi7y,ntzsqe7,5,Manual Code Verification,,,Manual Code Verification
+1pmfi7y,nu09yaq,10,Use Version Control,,,Use Version Control
+1pmfi7y,nu0shp8,14,Use Version Control,,,Use Version Control
+1pmfi7y,nu0pcra,12,Logging and Monitoring,,,Logging and Monitoring
+1pmfi7y,nu12ckk,18,Sensitive File Protection,,,Sensitive File Protection
+1pbi0lv,nrrpgc9,2,Consult Vendors,,,Consult Vendors
+1pcl58p,nselzkl,14,Logging and Monitoring;Manual Code Verification,,,Logging and Monitoring;Manual Code Verification
+1pcl58p,nrzno47,5,Manual Code Verification,,,Manual Code Verification
+1pcl58p,nspwxh4,16,Logging and Monitoring;Sensitive File Protection,,,Logging and Monitoring;Sensitive File Protection
+1pcl58p,ntg0afu,20,Logging and Monitoring,,,Logging and Monitoring
+1qyfbkm,o433jfc,0,Secure IDE Configuration,,,Secure IDE Configuration
+1q2in98,nxdbi37,0,Sensitive File Protection,,,Sensitive File Protection
+1pqx586,nuzd0im,0,Use Version Control,,,Use Version Control
+1q2in98,nxde1o1,2,Sensitive File Protection,,,Sensitive File Protection
+1q2in98,nxdfzts,4,Use Local LLM,,,Use Local LLM
+1q2in98,nxdisxk,6,Use Local LLM,,,Use Local LLM
+1q2in98,nxdjayb,7,Sensitive File Protection,,,Sensitive File Protection
+1q2in98,nxdc80a,1,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1q2in98,nxdsb46,14,Use Local LLM,,,Use Local LLM
+1q2in98,nxdu7a3,15,Sensitive File Protection,,,Sensitive File Protection
+1q2in98,nxdnwyt,10,Sensitive File Protection,,,Sensitive File Protection
+1q2in98,nxdqnit,13,Sensitive File Protection,,,Sensitive File Protection
+1q2in98,nxdy4j6,16,Secure IDE Configuration,,,Secure IDE Configuration
+1q2in98,nxey31i,24,Use Local LLM,,,Use Local LLM
+1q2in98,nxe7zwl,17,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1q2in98,nxexlrq,22,Use Local LLM,,,Use Local LLM
+1p02vkw,npmhjsj,1,Check Organizational Compliance,,,Check Organizational Compliance
+1pt6j53,nveqau8,4,Use Local LLM,,,Use Local LLM
+1p8f96i,nr6rj75,3,Disable Telemetry;Refer to Documentation,,,Disable Telemetry;Refer to Documentation
+1pt6j53,nvesvx3,10,Use Local LLM,,,Use Local LLM
+1pt6j53,nvep361,1,Check Organizational Compliance,,,Check Organizational Compliance
+1pt6j53,nveu1en,14,Use Local LLM,,,Use Local LLM
+1pt6j53,nver0ok,5,Consult Vendors,,,Consult Vendors
+1pt6j53,nvfmui3,27,Consult Vendors,,,Consult Vendors
+1pt6j53,nvgvnov,31,Sensitive File Protection,,,Sensitive File Protection
+1pt6j53,nvfu7im,29,Sensitive File Protection,,,Sensitive File Protection
+1p0byuq,npi797u,1,Secure IDE Configuration,,,Secure IDE Configuration
+1p1195j,npnqz7p,5,Memory/Context Isolation,,,Memory/Context Isolation
+1pt6j53,nvf3hdm,21,Check Organizational Compliance,,,Check Organizational Compliance
+1p1195j,npmzvy9,2,Check Organizational Compliance,,,Check Organizational Compliance
+1p1195j,npnuk75,6,Memory/Context Isolation,,,Memory/Context Isolation
+1ri73m7,o85ajld,3,Secure IDE Configuration,,,Secure IDE Configuration
+1pe591t,ns9wq5k,0,Sandboxing,,,Sandboxing
+1p5tbg9,nqm5555,1,Manual Code Verification,,,Manual Code Verification
+1p5tbg9,nqm5xu3,2,Memory/Context Isolation,,,Memory/Context Isolation
+1pdwm8c,ns8ejw3,6,Manual Code Verification,,,Manual Code Verification
+1pdwm8c,ns8eno6,7,Manual Code Verification,,,Manual Code Verification
+1pdwm8c,ns8eyw0,10,Logging and Monitoring;Tool/Extension Monitoring,,,Logging and Monitoring;Tool/Extension Monitoring
+1pdwm8c,ns8jh48,15,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1pdwm8c,ns8jp0l,16,Check Organizational Compliance,,,Check Organizational Compliance
+1pdwm8c,nsskwvf,32,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1qu0qld,o39o9gy,18,Secure IDE Configuration,,,Secure IDE Configuration
+1qu0qld,o36wqjf,5,Sandboxing,,,Sandboxing
+1qu0qld,o3ccc3a,27,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1qu0qld,o3h1q7p,33,Manual Code Verification,,,Manual Code Verification
+1qu0qld,o3ods5w,39,Secure IDE Configuration,,,Secure IDE Configuration
+1qu0qld,o3ncj1g,38,Sandboxing,,,Sandboxing
+1qu0qld,o4b338w,45,Sandboxing,,,Sandboxing
+1s099km,obsqn15,5,Manual Code Verification,,,Manual Code Verification
+1pcf3q6,nrxgnre,4,Secure IDE Configuration,,,Secure IDE Configuration
+1pcf3q6,nrzbypt,20,Secure IDE Configuration;Tool/Extension Monitoring,,,Secure IDE Configuration;Tool/Extension Monitoring
+1pcf3q6,nryxxb4,18,Secure IDE Configuration,,,Secure IDE Configuration
+1qdhhm2,nzqbver,1,Disable Telemetry,,,Disable Telemetry
+1pcf3q6,ns5ovt7,30,Secure IDE Configuration,,,Secure IDE Configuration
+1jxx62j,mn1d091,0,Use Local LLM,,Use Local LLM,
+1jxx62j,mmvcczx,12,Use Local LLM,,,Use Local LLM
+1jiinr2,mjgjr4g,2,Refer to Documentation,,,Refer to Documentation;Secure IDE Configuration
+1l304xo,mvximwm,0,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l304xo,mw2b4xo,2,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l304xo,mvxp751,3,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l304xo,mvyj36a,5,Sensitive File Protection,,,Sensitive File Protection
+1l304xo,mvywolc,7,Sensitive File Protection,,,Sensitive File Protection
+1l304xo,mw3dzw7,14,Sensitive File Protection,,,Sensitive File Protection
+1md3yhp,n62if4i,3,Memory/Context Isolation;Sensitive File Protection,,,Tool/Extension Monitoring
+13b4u1v,jj9kfr1,1,Consult Vendors,,,Consult Vendors;Refer to Documentation
+13b4u1v,jj9jalh,0,Consult Vendors,,,No suggestion
+14us5j9,jr92n4i,1,Consult Vendors,,,Consult Vendors
+188u252,kbmy7i6,1,Consult Vendors,,,No suggestion
+18xi4bq,kg4890b,0,Consult Vendors,,,No suggestion
+18xi4bq,kg4nsql,1,Memory/Context Isolation,,,No suggestion
+18xi4bq,kg4beaq,2,Refer to Documentation,,,Refer to Documentation
+18xi4bq,kg4ge6r,3,Use Local LLM,,,Use Local LLM
+18xi4bq,kg9vinv,5,Use Local LLM,,,Use Local LLM
+18xi4bq,kh7namk,6,Memory/Context Isolation,,,Use Local LLM
+18xi4bq,khe2b42,7,Use Local LLM,,,Refer to Documentation; Use Local LLM
+1969z47,khsat6m,1,Consult Vendors,,,No suggestion
+1969z47,khsb202,2,Refer to Documentation,,,Refer to Documentation
+1969z47,khxfsmd,6,Data Redaction,,Data Redaction,Data Sanitization
+1969z47,khxgubi,7,Data Redaction,,Data Redaction,Data Sanitization
+1cj0v3q,l2dmqwy,1,Use Local LLM,,,Use Local LLM
+1ek916u,lgizszl,0,Consult Vendors,,,Consult Vendors
+1hebtm4,m25bsil,1,Memory/Context Isolation,,,Memory/Context Isolation;Secure IDE Configuration
+1hebtm4,m25djqh,2,Memory/Context Isolation,,,Consult Vendors;Memory/Context Isolation
+1hebtm4,m238bkf,4,Memory/Context Isolation,,,Memory/Context Isolation;Secure IDE Configuration
+1hebtm4,m9jrg7g,7,Memory/Context Isolation,,,Memory/Context Isolation
+1hebtm4,m259x4r,9,Memory/Context Isolation,,,Memory/Context Isolation
+1hebtm4,m25b8ge,11,Memory/Context Isolation,,,Memory/Context Isolation;Secure IDE Configuration
+1hebtm4,mbx1ruo,13,Memory/Context Isolation,,,Consult Vendors;Memory/Context Isolation
+1hebtm4,mbx1sox,14,Memory/Context Isolation,,,Consult Vendors;Memory/Context Isolation
+1hebtm4,meoq28a,17,Memory/Context Isolation,,,Memory/Context Isolation
+1im3a4m,mc1xfpe,3,Use Local LLM,,,Use Local LLM
+1im3a4m,mc0xxz4,2,Use Local LLM,,,Use Local LLM
+1im3a4m,mc05upl,10,Secure IDE Configuration,,,
+1im3a4m,mc0gth8,11,Disable Telemetry;Memory/Context Isolation,,,Disable Telemetry;Memory/Context Isolation
+1im3a4m,mc0gzng,28,Memory/Context Isolation,,,Memory/Context Isolation
+1im3a4m,mc09ite,25,isolation from internet,Uncategorized,isolation from internet,
+1im3a4m,mbzyk90,34,Disable Telemetry,,,Disable Telemetry
+1im3a4m,mbzx837,55,Consult Vendors,,,Consult Vendors;Disable Telemetry
+1im3a4m,mc070im,58,Sensitive File Protection;Use Local LLM,,,Sensitive File Protection;Use Local LLM
+1im3a4m,mc08qhb,60,isolation from internet,,isolation from internet,Memory/Context Isolation
+1im3a4m,mc0m0m2,69,Sensitive File Protection,,,Sensitive File Protection
+1im3a4m,mc0crp7,72,Sensitive File Protection,,,Sensitive File Protection
+1im3a4m,mc151x9,86,Refer to Documentation,,,Consult Vendors;Memory/Context Isolation;Refer to Documentation
+1im3a4m,mc4dyhl,89,Sensitive File Protection,,,Tool/Extension Monitoring
+1im3a4m,mc02rz7,91,Use Local LLM,,,Use Local LLM
+1im3a4m,mpgtghu,90,Sandboxing,,,Consult Vendors
+1o3ojpn,nixkmwj,3,Use Local LLM,,,Consult Vendors;Use Local LLM
+1o3ojpn,niwrl5c,2,Use Local LLM,,,Use Local LLM
+1o3ojpn,niwkwik,8,Use Local LLM,,,Use Local LLM
+1o3ojpn,niwljq3,10,Use Local LLM,,,Use Local LLM
+1o3ojpn,nizdkfx,16,Use Local LLM,,,Use Local LLM
+1o3ojpn,niwlk4d,17,Use Local LLM,,,Use Local LLM
+1o3ojpn,nix65eq,27,Use Local LLM,,,Use Local LLM
+1o3ojpn,nix5kem,31,Use Local LLM,,,
+1i2bz6m,m7emoll,0,Use Local LLM,,,
+1i2bz6m,m7lafou,2,Use Local LLM,,,
+1i2bz6m,m7hf5zp,12,Use Local LLM,,,Use Local LLM
+1iopurz,mcmb8pr,0,Manual Code Verification;Secure IDE Configuration;Sensitive File Protection;Tool/Extension Monitoring;Use Local LLM,,,Logging and Monitoring;Manual Code Verification;Sensitive File Protection;Tool/Extension Monitoring
+1iopurz,mcol7hi,1,Consult Vendors;Disable Telemetry;Tool/Extension Monitoring;Use Local LLM,,,Consult Vendors;Refer to Documentation
+1iopurz,mcq0d4t,3,Use Local LLM,,,Sensitive File Protection
+1iopurz,mcluaz7,11,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1iopurz,mcltx8e,10,Manual Code Verification,,,Manual Code Verification;Tool/Extension Monitoring
+1iopurz,mlz90zs,16,Sensitive File Protection;Use Local LLM,,,Use Local LLM
+1k1rl0m,mnpmzz0,2,Manual Code Verification,,,
+1kv291s,mu6h946,1,Sandboxing,,,
+1kv291s,mu9ph4y,2,Secure IDE Configuration,,,Secure IDE Configuration
+1m1t2z9,n3knp7t,5,Secure IDE Configuration;Sensitive File Protection,,,Sandboxing;Secure IDE Configuration;Sensitive File Protection
+1m1t2z9,n48ulup,7,Refer to Documentation;Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration
+1m1t2z9,n3kb856,13,Refer to Documentation,,,Refer to Documentation
+1nngzbl,nfl8teg,0,Check Organizational Compliance,,,Check Organizational Compliance
+1nngzbl,nfmc111,3,Check Organizational Compliance;Use Local LLM,,,Check Organizational Compliance;Sensitive File Protection;Use Local LLM
+1nngzbl,nflo5kz,4,Check Organizational Compliance;Sensitive File Protection,,,Check Organizational Compliance;Secure IDE Configuration;Sensitive File Protection
+1nngzbl,nfl91ar,5,Sandboxing;Sensitive File Protection;Use Local LLM,,,Sandboxing;Use Local LLM
+1nngzbl,nflft9s,6,Check Organizational Compliance,,,Check Organizational Compliance
+1nngzbl,nfreb04,9,Consult Vendors,,,Consult Vendors
+1eces9s,lf2ltqf,1,Check Organizational Compliance;Use Local LLM,,,Check Organizational Compliance;Refer to Documentation;Use Local LLM
+1eces9s,lf0m5gh,2,Use Local LLM,,,Use Local LLM
+1fioys7,lnizgpj,2,Refer to Documentation,,,
+1fioys7,lnjwpsm,5,Consult Vendors,,,Consult Vendors
+1fioys7,lniswoz,7,Refer to Documentation,,,Refer to Documentation
+1fioys7,lnm3n6r,8,Sensitive File Protection,,,
+1ixkyvc,men64lh,0,Refer to Documentation;Sensitive File Protection,,,Disable Telemetry;Refer to Documentation
+1jawek1,mhpaeyl,0,Use Local LLM,,,Use Local LLM
+1k7e3a1,mp05t61,0,Secure IDE Configuration,,,Secure IDE Configuration
+1k7e3a1,moxhvd8,3,Use Local LLM,,,
+1lqsuvp,n15eboi,0,Sensitive File Protection,,,Sensitive File Protection;Use Version Control
+1lqsuvp,n15ezar,2,Sensitive File Protection,,,Sensitive File Protection
+1moe4nq,n8bgp50,0,Consult Vendors,not_a_suggestion,Consult Vendors,Consult Vendors
+1moe4nq,namid7x,7,Memory/Context Isolation,,,Memory/Context Isolation;Sensitive File Protection
+1moe4nq,n8jdylf,6,Sensitive File Protection,,,Sensitive File Protection
+1nd73si,ndexngb,20,Use Local LLM,,,
+1nd73si,ndevc3i,19,Use Local LLM,,,
+1nd73si,ndep2h1,25,Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1nd73si,ndeup0w,38,Memory/Context Isolation ,not_a_suggestion,Memory/Context Isolation ,
+1nd73si,ndeta9r,42,Use Local LLM,,,Use Local LLM
+1nd73si,ndg370k,41,Consult Vendors,,,Refer to Documentation
+1nd73si,ndexqh2,48,Disable Telemetry,,,Disable Telemetry
+1nd73si,ndevnbu,45,Use Local LLM,,,
+1nd73si,ndewo0p,47,Refer to Documentation,,,
+1nd73si,ndf16ol,50,Use Local LLM,,,Use Local LLM
+1nd73si,ndf123e,49,Memory/Context Isolation,,,Memory/Context Isolation
+1nd73si,ndfd62b,56,Consult Vendors,,,
+1nd73si,ndf3kfr,63,Disable Telemetry,,,Disable Telemetry
+1jjvc9b,mjqjgpc,0,Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1jjvc9b,mjtagf1,5,Sensitive File Protection,,,
+1jjvc9b,mjqay75,10,Sensitive File Protection,,,Sensitive File Protection
+11tfijx,jcjnch2,0,Sensitive File Protection,,,Use Local LLM
+11tfijx,mmjmvv0,2,Upgrade Subscription Plan,,Upgrade Subscription ,Refer to Documentation
+11tfijx,ml7arqk,4,Use Local LLM,,,Use Local LLM
+1lkwwp6,mzw5zk4,0,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lkwwp6,n03ejdo,3,Sensitive File Protection,,,Sensitive File Protection
+1olyysx,nmmorpk,0,Check Organizational Compliance,,,Check Organizational Compliance
+1olyysx,nmn3ju4,2,Check Organizational Compliance,,,Check Organizational Compliance
+1olyysx,nmqhlxr,4,Check Organizational Compliance,,,Check Organizational Compliance
+1olyysx,nmoqb7x,3,Check Organizational Compliance,,,Check Organizational Compliance
+1olyysx,nmoaujb,14,Refer to Documentation,,,
+1olyysx,nmp0ses,26,Check Organizational Compliance,,,Secure IDE Configuration
+1olyysx,nmp5ldj,28,Check Organizational Compliance,,,Check Organizational Compliance
+1olyysx,nmp5cg0,27,Refer to Documentation,,,Refer to Documentation
+1olyysx,nmpdkzj,29,Secure IDE Configuration,,,Check Organizational Compliance;Refer to Documentation
+1olyysx,nmqe62r,30,Check Organizational Compliance,,,Check Organizational Compliance;Secure IDE Configuration;Use Version Control
+1olyysx,nmntett,48,Check Organizational Compliance,,,Check Organizational Compliance
+1olyysx,nmob7iz,50,Refer to Documentation,,,
+1olyysx,nmo3lon,51,Check Organizational Compliance,,,Check Organizational Compliance;Secure IDE Configuration
+1olyysx,nmpnqiq,54,Secure IDE Configuration,,,Secure IDE Configuration
+1olyysx,nmlkwrp,61,Check Organizational Compliance,,,Check Organizational Compliance
+121odvl,jdmtcs6,1,Use Local LLM,,,Use Local LLM
+121odvl,jdn83p7,3,Use Local LLM,,,
+121odvl,jdmrfrd,6,Consult Vendors;Use Local LLM,,,
+121odvl,jdn9yb1,15,Check Organizational Compliance,,,
+121odvl,jdpfgta,19,Consult Vendors,,,Consult Vendors;Secure IDE Configuration
+121odvl,jdn63w7,18,Use Local LLM,,,Check Organizational Compliance;Secure IDE Configuration
+1lz8p2r,n2zwo5g,1,Sensitive File Protection,,,Memory/Context Isolation;Secure IDE Configuration
+1lz8p2r,n3gkiz7,5,Consult Vendors,,,Consult Vendors
+1m9xgo4,n5bvqqy,3,Data Redaction,,Data Redaction,Memory/Context Isolation;Refer to Documentation;Secure IDE Configuration
+1m5o9sz,n4dpjcx,0,Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1m5o9sz,n4ipmk6,4,Check Organizational Compliance,,,Consult Vendors
+1m5o9sz,n4gnbov,12,Manual Code Verification,,,Manual Code Verification
+1m5ods8,n4dl3b1,10,Disable Telemetry;Use Local LLM,,,Disable Telemetry;Use Local LLM
+1m5ods8,n4dj5xd,9,Disable Telemetry;Use Local LLM,,,Disable Telemetry;Use Local LLM
+1m5ods8,n4dr2ju,11,Disable Telemetry,,,
+1m5ods8,n4hrsz1,16,Use Local LLM,,,Secure IDE Configuration;Tool/Extension Monitoring;Use Local LLM
+1m5ods8,na6thed,25,Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1k9rcw1,mpgir7d,0,Use Local LLM,,,
+1k9rcw1,mpgp9cb,1,Use Local LLM,,,Use Local LLM
+1k9rcw1,mpi5rmu,2,Use Local LLM,,,Use Local LLM
+1njmpig,ng0fqq9,2,Refer to Documentation;Secure IDE Configuration,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1kx4pil,mums41p,0,Sensitive File Protection,,,
+1l2993i,mvtbkmm,6,Sandboxing,,,Disable Telemetry;Secure IDE Configuration
+1l3brpx,mw2bcf0,2,Check Organizational Compliance,,,Consult Vendors
+1l3brpx,mvzyn5f,3,Use Local LLM,,,Use Local LLM
+1l3brpx,mw00lo7,9,Check Organizational Compliance,,,Check Organizational Compliance
+1l3brpx,mvznruk,12,Refer to Documentation,,,
+1l3brpx,mw0lzc4,13,Check Organizational Compliance,,,Check Organizational Compliance
+1l3brpx,mvzsdfn,23,Check Organizational Compliance,,,Check Organizational Compliance
+1l3brpx,mvznopd,25,Check Organizational Compliance,,,
+1l3brpx,mvzqk09,26,Check Organizational Compliance,,,Check Organizational Compliance
+1l3brpx,mw1d0g3,27,Use Local LLM,,,Use Local LLM
+1l3brpx,mw44isn,28,Check Organizational Compliance,,,Consult Vendors;Secure IDE Configuration
+1l3brpx,mw5wtcs,30,Check Organizational Compliance,,,
+1l3brpx,mw2alzn,32,Check Organizational Compliance;Use Local LLM,,,Check Organizational Compliance;Secure IDE Configuration;Use Local LLM
+1ldwxlu,mycb0zi,3,Check Organizational Compliance,,,Check Organizational Compliance
+1ltm73x,n1smd64,4,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1ltm73x,n1rpfyw,13,Use Local LLM,,,Sensitive File Protection;Use Local LLM
+1ltm73x,n1rfny9,18,Disable Telemetry,,,Disable Telemetry
+1ltm73x,n1x3ma1,35,Use Local LLM,,,Use Local LLM
+1m6hbaa,ngcfbo1,1,Check Organizational Compliance,,,Check Organizational Compliance
+1mahokf,n5eu16n,7,Use Local LLM,,,
+1nj6ojg,nep6p7f,1,Check Organizational Compliance,,,Check Organizational Compliance
+1nj6ojg,ner45b4,4,Check Organizational Compliance,,,Check Organizational Compliance
+1nj6ojg,neqml32,16,Check Organizational Compliance,,,Check Organizational Compliance
+1nj6ojg,neqc5kk,15,Check Organizational Compliance,,,Check Organizational Compliance
+1nj6ojg,nf21217,17,Check Organizational Compliance,,,Check Organizational Compliance
+1nj6ojg,ner1cs3,19,Check Organizational Compliance,,,Consult Vendors
+1nj6ojg,neufrj9,25,Secure IDE Configuration,,,Check Organizational Compliance
+1nj6ojg,nerqb2r,34,Check Organizational Compliance,,,
+1nj6ojg,nesfgmn,35,Check Organizational Compliance,,,
+1clhvd5,l2u4rdy,2,Memory/Context Isolation,,,Memory/Context Isolation
+1clhvd5,l2tx59j,7,Memory/Context Isolation,,,Memory/Context Isolation
+1gsq1dw,lxh2sco,10,Use Local LLM,,,Use Local LLM
+1jb84a1,mhx8nbf,4,Tool/Extension Monitoring,,,
+1jb84a1,mhs3fob,1,Secure IDE Configuration,,,Tool/Extension Monitoring
+1k7iiya,mp0gcn3,1,Secure IDE Configuration,,,
+1k7iiya,nq36rif,5,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1gepias,luc7rmh,6,Disable Telemetry,,,Tool/Extension Monitoring
+1gepias,lucmft6,10,Consult Vendors;Disable Telemetry,,,Consult Vendors
+1gepias,lucyvwa,11,Disable Telemetry,,,Disable Telemetry;Refer to Documentation
+1gepias,lv7d9xz,15,Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1gepias,lvmsgnq,16,Disable Telemetry,,,
+1gepias,lun421w,22,Sensitive File Protection,,,
+1gepias,lukh99y,41,Disable Telemetry,,,Disable Telemetry
+1lpbt8y,n0ugghf,4,Memory/Context Isolation;Refer to Documentation;Sensitive File Protection,,,Memory/Context Isolation;Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1lpbt8y,n0tmjub,8,Sensitive File Protection,,,Sensitive File Protection;Use Version Control
+1lpbt8y,n0w3c6y,17,Sensitive File Protection,,,Sensitive File Protection
+1lpbt8y,n11xhgz,18,Sensitive File Protection,,,
+1o8csou,njuj7r6,2,Refer to Documentation,,,
+1kgzu0u,mr7mcos,7,Consult Vendors,,,
+1kgzu0u,mrtg49r,8,Disable Telemetry,,,Disable Telemetry;Refer to Documentation
+1kgzu0u,msitmbz,9,Consult Vendors;Disable Telemetry,,,Consult Vendors;Refer to Documentation
+1kvreqa,mubluij,0,Disable Telemetry,,,
+1kvreqa,mubmfd1,1,Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1kvreqa,muboahj,9,Refer to Documentation,,,
+1kvreqa,mubudq2,15,Disable Telemetry,,,
+1kvreqa,muc6f13,21,Consult Vendors,,,
+1npzt7a,ng4n7qm,1,Refer to Documentation,,,Refer to Documentation
+1jhmnwb,mj8floa,0,Use Local LLM,,,Check Organizational Compliance;Secure IDE Configuration;Use Local LLM
+1jhmnwb,mj8eebv,1,Check Organizational Compliance;Disable Telemetry;Use Local LLM,,,Check Organizational Compliance;Use Local LLM
+1jhmnwb,mj8njbt,2,Check Organizational Compliance,,,Check Organizational Compliance
+1jhmnwb,mj9yfth,4,Check Organizational Compliance;Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1jhmnwb,mja3q3g,5,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1jhmnwb,mjnhzii,7,Check Organizational Compliance;Use Local LLM,,,Check Organizational Compliance;Use Local LLM
+1ordvv6,nnpgjsm,0,Sandboxing,,,Sandboxing
+1jhmnwb,mk0eiub,8,Check Organizational Compliance;Use Local LLM,,,Check Organizational Compliance;Use Local LLM
+1ordvv6,nnpezr3,2,Secure IDE Configuration,,,
+1i772ne,m8m0fc3,0,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1m7iwra,n4uca80,1,Consult Vendors,,,Consult Vendors
+1m7iwra,n4rwaua,0,Consult Vendors;Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1m92q5a,n54kbkk,2,Consult Vendors,,,Consult Vendors
+1m92q5a,n54otnf,6,Consult Vendors,,,
+1m92q5a,n54k40q,8,Consult Vendors,,,Consult Vendors
+1m92q5a,n54p1j9,7,Use Version Control,,,Use Version Control
+1mafiah,n5grbjr,1,Consult Vendors,,,Consult Vendors
+1mafiah,n5h8ljf,2,Consult Vendors,,,
+1mafiah,n5hepfn,4,Consult Vendors,,,Consult Vendors
+1mafiah,n5h8coi,6,Consult Vendors,,,Consult Vendors
+1d8rp80,l78pn9e,3,Manual Code Verification,,,Manual Code Verification
+1d8rp80,l7a1k9q,4,Sandboxing,,,
+1nip3sb,nekecba,0,Consult Vendors,,,
+1njbnyp,nep1m9w,1,Secure IDE Configuration,,,Secure IDE Configuration
+1ncthne,ndbp6vz,0,Consult Vendors,,,
+1nkry7q,nf06os1,2,Manual Code Verification,,,Manual Code Verification
+188gyu7,kccyvwy,2,Consult Vendors,,,Consult Vendors
+188gyu7,kbl9ntc,9,Check Organizational Compliance;Use Local LLM,,,Consult Vendors;Use Local LLM
+188gyu7,kbsj7mp,12,Memory/Context Isolation,,,Secure IDE Configuration
+188gyu7,kbmfocl,14,Use Local LLM,,,Use Local LLM
+188gyu7,kbm6f72,13,Check Organizational Compliance,,,Check Organizational Compliance
+188gyu7,kbncb0o,19,Check Organizational Compliance;Use Local LLM,,,Use Local LLM
+1elp05x,lgtasjq,0,Sensitive File Protection,,,Sensitive File Protection
+1elp05x,lgw2l76,4,Sensitive File Protection;Use Version Control,,,
+1elp05x,lgtmou5,5,Sensitive File Protection,,,Sensitive File Protection
+1elp05x,lgtehyx,10,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1elp05x,lgxerjg,14,Sensitive File Protection,,,Sensitive File Protection
+1elp05x,lgy78yu,16,Sensitive File Protection,,,Sensitive File Protection
+1elp05x,lhaehgh,18,Sandboxing,,,Sandboxing
+1ggbeza,lup1xf6,2,Memory/Context Isolation,,,Memory/Context Isolation
+1ggbeza,luq6xe2,3,Sensitive File Protection,,,Sensitive File Protection
+1ggbeza,luw9hfw,7,Sensitive File Protection,,,Sensitive File Protection
+1iome0w,mcknvus,5,Manual Code Verification;Refer to Documentation,,,Refer to Documentation;Tool/Extension Monitoring
+1iome0w,mcmzown,17,Use Local LLM,,,Use Local LLM
+1iome0w,mcp3hh1,46,Refer to Documentation,,,Refer to Documentation
+1iome0w,mdqbkl5,49,Check Organizational Compliance,,,
+1iome0w,ms65un9,52,Refer to Documentation,,,Refer to Documentation
+1iome0w,nd8qaob,55,Secure IDE Configuration,,,Secure IDE Configuration
+1iv18yj,me4fcxv,3,Use Local LLM,,,
+1iv18yj,me20r4l,4,Use Local LLM,,,Use Local LLM
+1iv18yj,me279ce,5,Use Local LLM,,,Secure IDE Configuration;Use Local LLM
+1of4ojm,nl6zekt,0,Refer to Documentation,,,Refer to Documentation
+1of4ojm,nl7nymj,8,Sandboxing,,,Sandboxing
+1of4ojm,nlcpz30,22,Sandboxing,,,Sandboxing
+1of4ojm,nl6t0go,32,Secure IDE Configuration,,,
+1of4ojm,nl6xuzf,40,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1of4ojm,nl7s3ml,37,Sandboxing,,,Sandboxing
+1of4ojm,nl6zd83,44,Sandboxing,,,
+1of4ojm,nl8afui,46,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1of4ojm,nlosilj,57,Sandboxing,,,Sandboxing
+1of4ojm,nlpm1sp,58,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1of4ojm,nl6gald,61,Use Version Control,,,Tool/Extension Monitoring;Use Version Control
+1of4ojm,nl6pxd6,65,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1of4ojm,nl7yll5,67,Sandboxing,,,Sandboxing
+1of4ojm,nl6sdw4,66,Sandboxing,,,Sandboxing
+1o4t91i,nj5x194,4,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1o4t91i,nj4olr2,7,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1o4t91i,nj4xcz1,8,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1o4t91i,nj5ztfm,10,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1o4t91i,nj6253d,11,Manual Code Verification;Use Version Control,,,
+1o4t91i,nj8bqfs,12,Use Version Control,,,Use Version Control
+1o4t91i,njsao1y,13,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1o4t91i,nj97w72,14,Use Version Control,,,Use Version Control
+1o4t91i,nj4kvhk,15,Manual Code Verification,,,Manual Code Verification
+1o4t91i,nja683t,18,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1o4t91i,nj55p7x,19,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Use Version Control
+1o4t91i,nj52ygi,21,Manual Code Verification,,,Manual Code Verification
+1o4t91i,nj93sz5,23,Use Version Control,,,Use Version Control
+1o4t91i,nj5t0sl,31,Manual Code Verification,,,Manual Code Verification
+1o4t91i,nj66r2z,33,Manual Code Verification,,,Manual Code Verification
+1o4t91i,nj88y2b,39,Use Version Control,,,Use Version Control
+1o4t91i,nj4n34p,43,Manual Code Verification,,,Manual Code Verification
+1olmaj3,nmityer,0,Use Version Control,,,Use Version Control
+1olmaj3,nmiviaa,1,Use Version Control,,,Use Version Control
+1olmaj3,nmiw4jt,6,Sandboxing;Use Version Control,,,Use Version Control
+1olmaj3,nmixdio,10,Use Version Control,,,Manual Code Verification
+1olmaj3,nmiy016,13,Use Version Control,,,Use Version Control
+1olmaj3,nmiy0pq,15,Use Version Control,,,Use Version Control
+1olmaj3,nmj1lvq,17,Use Version Control,,,Use Version Control
+1oceaqz,nkod8kd,6,Secure IDE Configuration,,,Secure IDE Configuration
+1oceaqz,nklz7zx,9,Secure IDE Configuration,,,Secure IDE Configuration
+1oceaqz,nkm4bv3,15,Sandboxing,,,Sandboxing
+1oceaqz,nkm8kqu,17,Use Version Control,,,
+1oceaqz,nkmxcov,19,Manual Code Verification,,,Manual Code Verification
+1oceaqz,nkn1ikq,21,Secure IDE Configuration,,,Secure IDE Configuration
+1oceaqz,nkmlin7,25,Sandboxing,,,Sandboxing
+1oceaqz,nkmxjf2,26,Manual Code Verification,,,Manual Code Verification
+1oceaqz,nkmycxn,27,Secure IDE Configuration,,,Secure IDE Configuration
+1oceaqz,nknr0qr,30,Sandboxing,,,Sandboxing
+1oceaqz,nknxlgx,31,Manual Code Verification,,,Use Version Control
+1jfidvb,mirb86s,1,Use Version Control,,,Use Version Control
+1jfidvb,mir71jd,4,Secure IDE Configuration,,,Secure IDE Configuration
+1jfidvb,mjk9gyi,6,Secure IDE Configuration,,,Secure IDE Configuration
+1jfidvb,mir7odx,11,Secure IDE Configuration,,,Secure IDE Configuration
+1jfidvb,mitb6b9,25,Use Version Control,,,Use Version Control
+1jfidvb,mitdtqt,26,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1kg24hz,mqv8p47,0,Sensitive File Protection,,,
+1kg24hz,mret0qj,4,Secure IDE Configuration,,,Secure IDE Configuration
+1kg24hz,mqw2lwl,3,Secure IDE Configuration,,,Secure IDE Configuration
+1kg24hz,mqvt1s6,6,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1kg24hz,mqvj41z,5,Secure IDE Configuration,,,Secure IDE Configuration
+1kg24hz,mqxem94,8,Secure IDE Configuration,,,Secure IDE Configuration
+1kg24hz,mqvyhj6,7,Secure IDE Configuration,,,Secure IDE Configuration
+1kg24hz,mqv8y7l,9,Secure IDE Configuration;Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1kjui5h,mrptznv,2,Use Version Control,,,Use Version Control
+1kjui5h,mrpximd,4,Use Version Control,,,Use Version Control
+1kjui5h,mrq4m8c,15,Manual Code Verification,,,Manual Code Verification
+1kjui5h,mrq20sd,14,Manual Code Verification,,,Manual Code Verification
+1kjui5h,mrtacx9,16,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1kjui5h,nipbsq3,18,Use Version Control,,,Use Version Control
+1kjui5h,mrpt1tt,19,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration;Sensitive File Protection;Use Version Control
+1kjui5h,mrpuokx,20,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1koqu7p,msspf7i,0,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1koqu7p,mss1zdt,8,Manual Code Verification,,,Manual Code Verification
+1koqu7p,msuxmz2,9,Manual Code Verification,,,Manual Code Verification
+1koqu7p,mss29w2,15,Manual Code Verification,,,Manual Code Verification
+1koqu7p,msuup71,14,Secure IDE Configuration,,,Manual Code Verification
+1koqu7p,mst3j9i,17,Secure IDE Configuration,,,Secure IDE Configuration
+1koqu7p,mt283df,16,Manual Code Verification,,,Manual Code Verification
+1l0033b,mvd7x6j,7,Manual Code Verification,,,Manual Code Verification
+1l0033b,nswm5fr,9,Use Version Control,,,Manual Code Verification;Use Version Control
+1ld71va,my609jc,0,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1ld71va,my626bc,2,Sandboxing;Secure IDE Configuration,,,Refer to Documentation;Sandboxing
+1ld71va,my62vzn,3,Sandboxing,,,Sandboxing
+1ld71va,my71wfp,6,Sandboxing,,,Sandboxing
+1ldi19c,my8l35n,0,Secure IDE Configuration,,,Secure IDE Configuration
+1ldi19c,my9s4kz,5,Refer to Documentation;Secure IDE Configuration,,,Logging and Monitoring;Secure IDE Configuration;Tool/Extension Monitoring
+1ldi19c,myaszu9,6,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1ldi19c,myb2acr,9,Logging and Monitoring;Secure IDE Configuration,,,Logging and Monitoring;Tool/Extension Monitoring
+1ldi19c,n9okn9f,11,Manual Code Verification;Use Version Control,,,Manual Code Verification;Sensitive File Protection;Use Version Control
+1ldi19c,my8hqhi,12,Memory/Context Isolation;Secure IDE Configuration,,,Secure IDE Configuration
+1ldi19c,n13ken8,13,Secure IDE Configuration,,,Secure IDE Configuration
+1lgudw2,mz5nocv,4,Sensitive File Protection,,,
+1lgudw2,mzhhvyq,12,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection;Use Version Control
+1lgudw2,mz09pq8,20,Sensitive File Protection,,,Sensitive File Protection
+1lgudw2,myzvcfc,35,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,myzz6g1,36,Secure IDE Configuration,,,
+1lgudw2,mz0bp7c,37,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,myzxr60,44,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,myzxb8u,47,Secure IDE Configuration;Sensitive File Protection,,,Consult Vendors;Secure IDE Configuration
+1lgudw2,mz07kcz,53,Sensitive File Protection,,,Sensitive File Protection
+1lgudw2,myz68m4,52,Sensitive File Protection,,,
+1lgudw2,mz3iutn,58,Manual Code Verification,,,Manual Code Verification
+1lgudw2,myz7poy,75,Sensitive File Protection,,,
+1lgudw2,mz08si0,82,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mz060sj,86,Secure IDE Configuration;Sensitive File Protection,,,Sensitive File Protection
+1lgudw2,mz0mm45,91,Sensitive File Protection,,,Sensitive File Protection;Use Version Control
+1lgudw2,mz1m6ab,99,Sensitive File Protection,,,Sensitive File Protection
+1lgudw2,mz1kbk1,98,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mz3lhr6,109,Sandboxing,,,Sensitive File Protection
+1lgudw2,myzw5so,125,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mz0bmin,127,Sensitive File Protection,,,Sensitive File Protection
+1lgudw2,mz0lh5w,129,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,myzrgik,137,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mz0j7e0,149,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mz10oud,151,Sensitive File Protection,,,
+1lgudw2,mz1qjyn,159,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mz219xd,166,Sensitive File Protection,,,Sensitive File Protection
+1lgudw2,mz49imx,172,Sandboxing;Secure IDE Configuration;Sensitive File Protection,,,Sandboxing;Secure IDE Configuration;Sensitive File Protection
+1lgudw2,mzcduo2,173,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection;Tool/Extension Monitoring
+1lgudw2,n5u7ti5,176,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,n4vrtph,175,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lgudw2,njht0n5,177,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lrbk8c,n19q3or,0,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1lrbk8c,n19zs69,3,Secure IDE Configuration;Sensitive File Protection,,,
+1lrbk8c,n1apwp9,4,Sandboxing,,,Sandboxing
+1lvnk6c,n27l74a,0,Secure IDE Configuration,,,Secure IDE Configuration
+1lxh4jr,n2m4k5j,0,Memory/Context Isolation,,,Memory/Context Isolation
+1lvnk6c,n2a9u0r,2,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1m21go1,n3lgl4s,9,Sandboxing,,,Sandboxing
+1m21go1,n3lvzr4,11,Secure IDE Configuration,,,
+1m21go1,n3lfsvh,16,Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1m21go1,n3lklz3,18,Sandboxing,,,Sandboxing
+1m21go1,n3lqtyc,20,Secure IDE Configuration,,,Secure IDE Configuration
+1m21go1,n4dn4ly,27,Secure IDE Configuration,,,
+1m21go1,n3lg833,33,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1m21go1,n3m3a3v,40,Secure IDE Configuration,,,
+1m21go1,n3mu5zf,45,Secure IDE Configuration,,,Secure IDE Configuration
+1m21go1,n3lecov,48,Sandboxing;Use Version Control,,,Sandboxing;Secure IDE Configuration;Sensitive File Protection;Use Version Control
+1m21go1,n3s3dl8,53,Secure IDE Configuration,,,
+1m21go1,n447wzw,58,Use Version Control,,,Use Version Control
+1m21go1,nvzvoja,61,Use Version Control,,,
+1m235jv,n3mq8l5,0,Manual Code Verification,,,Manual Code Verification
+1m235jv,n3nn073,3,Sandboxing,,,Sandboxing
+1m235jv,n3uwmrh,7,Secure IDE Configuration,,,Secure IDE Configuration
+1m235jv,n3n90yg,4,Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1m235jv,n3o4xaa,11,Sandboxing;Secure IDE Configuration,,,Sandboxing
+1m235jv,n3mis0n,15,Sandboxing;Secure IDE Configuration,,,
+1m235jv,n3qswje,17,Consult Vendors,,,
+1m235jv,n3v5s7b,18,Sandboxing,,,
+1m235jv,n3o0zo3,21,Tool/Extension Monitoring,,,
+1m235jv,n3r7jvo,31,Sandboxing,,,Manual Code Verification;Sandboxing;Secure IDE Configuration
+1m4jldf,n47f1l3,1,Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration;Tool/Extension Monitoring
+1m4jldf,n4a94us,5,Refer to Documentation,,,
+1m77t4d,n4pbzv1,2,Secure IDE Configuration,,,Secure IDE Configuration
+1m77t4d,n4padh5,1,Manual Code Verification,,,Manual Code Verification
+1m77t4d,n4py4c7,3,Sandboxing;Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1m861tg,n4wpooh,0,Tool/Extension Monitoring,,,Secure IDE Configuration;Tool/Extension Monitoring
+1ma5net,n5cizf1,4,Secure IDE Configuration,,,Secure IDE Configuration
+1ma5net,n5d8n7f,11,Secure IDE Configuration,,,Check Organizational Compliance;Secure IDE Configuration
+1ma5net,n5de8zh,8,Secure IDE Configuration,,,Logging and Monitoring;Secure IDE Configuration
+1ma5net,n5debb1,12,Logging and Monitoring;Refer to Documentation;Secure IDE Configuration,,,Check Organizational Compliance;Logging and Monitoring;Refer to Documentation;Secure IDE Configuration
+1ma5net,n5dptc1,17,Secure IDE Configuration,,,Secure IDE Configuration
+1ma5net,n5doy8v,22,Sandboxing,,,Manual Code Verification;Sandboxing;Sensitive File Protection;Use Version Control
+1ma5net,n5exgld,24,Use Local LLM,,,Check Organizational Compliance;Use Local LLM
+1ma5net,n5cbz2f,29,Sensitive File Protection ,not_a_suggestion,Sensitive File Protection ,Sensitive File Protection
+1ma5net,n5d4s9p,32,Use Local LLM,,,Use Local LLM
+1meal4a,n6ahyx4,0,Sandboxing,,,Sandboxing
+1meal4a,n68tdjx,3,Secure IDE Configuration,,,Consult Vendors
+1meal4a,n6idchj,4,Secure IDE Configuration,,,Secure IDE Configuration
+1meal4a,n6joneb,6,Consult Vendors,,,Refer to Documentation
+1meal4a,nxzxrf5,7,Sandboxing,,,Sandboxing
+1mor69e,n8evy53,2,Secure IDE Configuration;Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration
+1mor69e,n8eo7lf,5,Manual Code Verification;Secure IDE Configuration,,,Secure IDE Configuration
+1mpf1b3,n8j8zmt,0,Sandboxing,,,Sandboxing
+1mpf1b3,n8jhbzv,2,Sandboxing,,,Sandboxing
+1mpf1b3,n8soick,3,Sandboxing,,,Sandboxing
+1mx3oaf,na36ffs,0,Secure IDE Configuration,,,Secure IDE Configuration
+1mx3oaf,nafopjs,4,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1n5arla,nbs3pup,11,Sandboxing;Secure IDE Configuration;Sensitive File Protection,,,
+1n5arla,nbs9ytj,12,Memory/Context Isolation,,,Memory/Context Isolation
+1n5arla,nbsgys3,13,Memory/Context Isolation,,,Memory/Context Isolation
+1n5arla,nbrdl8r,17,Use Version Control,,,
+1n5arla,nbr9xue,20,Manual Code Verification,,,Manual Code Verification
+1n5arla,nbrnmz4,21,Manual Code Verification,,,Manual Code Verification
+1n7a81n,nc61kuc,2,Manual Code Verification,,,Manual Code Verification
+1n7a81n,nc6ojs3,3,Manual Code Verification,,,
+1n7a81n,nc5yu6n,9,Manual Code Verification,,,Manual Code Verification
+1n7a81n,nc64gcm,11,Manual Code Verification,,,Manual Code Verification
+1n7a81n,nc7wor6,19,Secure IDE Configuration,,,Secure IDE Configuration
+1n7a81n,nc8zmng,21,Secure IDE Configuration,,,Manual Code Verification;Tool/Extension Monitoring
+1n7a81n,ncdakpb,22,Secure IDE Configuration,,,Manual Code Verification
+1n7a81n,nc6ause,23,Manual Code Verification,,,Manual Code Verification
+1n7a81n,nc792tq,25,Manual Code Verification,,,Manual Code Verification
+1n7a81n,nc9p0b5,30,Refer to Documentation,,,
+1n7a81n,ncd566w,32,Refer to Documentation,,,Refer to Documentation
+1n7a81n,nccwlvv,34,Secure IDE Configuration,,,Secure IDE Configuration
+1n7a81n,nd0hrpr,35,Manual Code Verification,,,
+1nbgrv0,nd21fgt,13,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1nbgrv0,nd1o8fz,40,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1nbgrv0,nd1qfpv,51,Secure IDE Configuration;Sensitive File Protection,,,Manual Code Verification
+1nbgrv0,nd25as7,54,Consult Vendors,,,Consult Vendors
+1nbgrv0,nd2w49b,71,Refer to Documentation,,,
+1nbgrv0,nd38t6f,74,Memory/Context Isolation,,,Memory/Context Isolation
+1nbgrv0,nd1rakl,83,Manual Code Verification;Secure IDE Configuration,,,
+1nbgrv0,nd1ooyd,87,Manual Code Verification,,,Manual Code Verification
+1nbgrv0,nd2vvlr,92,Manual Code Verification;Sandboxing,,,Sandboxing
+1nbgrv0,nd3n6r0,97,Secure IDE Configuration,,,Secure IDE Configuration;Use Version Control
+1nbgrv0,nd4wef0,101,Consult Vendors,,,Tool/Extension Monitoring
+1nbgrv0,nd7cdgb,103,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1nbgrv0,nd5uisu,102,Use Version Control,,,Check Organizational Compliance;Logging and Monitoring;Tool/Extension Monitoring
+1nbgrv0,nd1xn61,104,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1nbgrv0,nd21hqn,106,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection;Tool/Extension Monitoring
+1nbgrv0,nd1r9ri,109,Secure IDE Configuration,,,Manual Code Verification;Use Version Control
+1nbgrv0,nd23bzn,113,Consult Vendors,,,Consult Vendors
+1nbgrv0,nd20cc9,133,Secure IDE Configuration,,,Secure IDE Configuration
+1nbgrv0,nde1ci1,140,Use Version Control,,,
+1nfvh46,ndzbkbo,1,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1nfvh46,ndz9xlo,4,Sensitive File Protection,,,Sensitive File Protection
+1nfvh46,ne9z80l,6,Sensitive File Protection,,,Memory/Context Isolation;Sensitive File Protection
+1nfvh46,neb37ez,7,Sensitive File Protection,,,Sensitive File Protection
+1nfvh46,ne0ork5,10,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1nfvh46,ne3sq5i,12,Secure IDE Configuration,,,
+1nfvh46,ne0zm5o,16,Sensitive File Protection,,,Manual Code Verification;Sensitive File Protection
+1nfvh46,ne3fcc6,17,Secure IDE Configuration;Sensitive File Protection,,,
+1nfvh46,ne49ejf,19,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1nfvh46,ne3qypc,18,Secure IDE Configuration;Sensitive File Protection,,,Memory/Context Isolation;Secure IDE Configuration;Sensitive File Protection
+1nfvh46,ne067r0,20,Sensitive File Protection,,,Sensitive File Protection
+1nfvh46,ndzf4mr,21,Sensitive File Protection,,,Sensitive File Protection
+1nfvh46,njgrked,29,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection;Tool/Extension Monitoring
+1nfvh46,ne2ao5m,37,Sensitive File Protection,,,Sensitive File Protection
+1nidnt0,nei22hi,0,Use Version Control,,,Use Version Control
+1nidnt0,neialqw,2,Use Version Control,,,Use Version Control
+1nidnt0,nek2d12,1,Use Version Control,,,
+1nidnt0,nei3ezb,4,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1nidnt0,nei83o3,5,Use Version Control,,,Use Version Control
+1nidnt0,nelokw6,7,Use Version Control,,,
+1nidnt0,nem0vo3,11,Use Version Control,,,Use Version Control
+1nidnt0,nelwf1i,16,Use Version Control,,,Use Version Control
+1nidnt0,nemkwwd,15,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1nidnt0,nem39bb,18,Use Version Control,,,Use Version Control
+1nidnt0,nelx8kq,17,Use Version Control,,,
+1nidnt0,neieasm,21,Use Version Control,,,
+1nidnt0,neloels,24,Use Version Control,,,Use Version Control
+1nidnt0,nei5lmx,25,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1nidnt0,nem2oo6,28,Secure IDE Configuration,,,Secure IDE Configuration
+1nidnt0,nei67bw,32,Refer to Documentation;Secure IDE Configuration,,,Refer to Documentation;Secure IDE Configuration
+1nidnt0,nen1iq3,33,Secure IDE Configuration,,,Secure IDE Configuration
+1nidnt0,nei6x4l,34,Use Version Control,,,Use Version Control
+1nidnt0,neiawmn,35,Use Version Control,,,Use Version Control
+1nidnt0,nem09kb,36,Use Version Control,,,
+1nidnt0,nei8fee,41,Use Version Control,,,Use Version Control
+1nidnt0,nei6eca,46,Secure IDE Configuration;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1nidnt0,nei9ng8,52,Consult Vendors,,,Use Version Control
+1nidnt0,neiaybv,54,Use Version Control,,,Use Version Control
+1nidnt0,nep6wbl,56,Use Version Control,,,Use Version Control
+1nidnt0,neidqn1,57,Secure IDE Configuration,,,Use Version Control
+1nidnt0,neicmrn,64,Refer to Documentation,,,
+1nidnt0,neicxcf,65,Use Version Control,,,Use Version Control
+1nidnt0,nein56g,69,Use Version Control,,,Use Version Control
+1nidnt0,neiumha,70,Use Version Control,,,Use Version Control
+1nidnt0,neiye1r,71,Secure IDE Configuration,,,Secure IDE Configuration
+1nidnt0,nen1pfz,78,Use Version Control,,,Use Version Control
+1o874ag,nju1x4u,0,Secure IDE Configuration,,,Secure IDE Configuration
+1o874ag,njtxf17,1,Secure IDE Configuration,,,Secure IDE Configuration
+1o874ag,njtbc4q,3,Secure IDE Configuration,,,Secure IDE Configuration
+1o874ag,njz075f,4,Secure IDE Configuration,,,Secure IDE Configuration
+1omswsw,nn1sosn,7,Manual Code Verification,,,
+1omswsw,nn01zrg,12,Refer to Documentation,,,
+1omswsw,nmsvk4p,13,Manual Code Verification;Refer to Documentation,,,Manual Code Verification;Refer to Documentation
+1omswsw,nmsy7qh,14,Manual Code Verification,,,Manual Code Verification
+1omswsw,nms1vpm,23,Manual Code Verification,,,
+1omswsw,nmwe7q6,24,Manual Code Verification,,,
+1omswsw,nn36n7q,27,Refer to Documentation,,,Refer to Documentation
+1omswsw,nms8b45,45,Manual Code Verification,,,Manual Code Verification
+1omswsw,nnqtk5g,42,Refer to Documentation,,,
+1omswsw,nnzk4of,44,Manual Code Verification,,,Use Version Control
+1omswsw,nn26r9v,46,Manual Code Verification,,,Logging and Monitoring;Manual Code Verification;Use Version Control
+1omswsw,nmsmlto,48,Manual Code Verification,,,
+1omswsw,nmsm03p,63,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmu2j1v,62,Manual Code Verification,,,
+1omswsw,nmsip93,64,Manual Code Verification,,,Manual Code Verification
+1omswsw,nms5kvv,69,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmt0jjn,72,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmvm31w,77,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmtbw52,76,Manual Code Verification,,,
+1omswsw,nn2rhwz,80,Manual Code Verification,,,
+1omswsw,nmtrdkn,87,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmuexvd,89,Secure IDE Configuration,,,Manual Code Verification
+1omswsw,nmugzo9,90,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmup9ol,92,Manual Code Verification,,,
+1omswsw,nmwgsjo,95,Manual Code Verification,,,Manual Code Verification;Use Version Control
+1omswsw,nmsgatj,97,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmua67e,104,Manual Code Verification,,,
+1omswsw,nmuatzf,105,Manual Code Verification,,,
+1omswsw,nmvgywg,113,Manual Code Verification,,,
+1omswsw,nmvnj62,114,Secure IDE Configuration,,,Manual Code Verification
+1omswsw,nmw5989,115,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmwrncr,119,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmwtt4y,121,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmzpth3,127,Manual Code Verification,,,
+1omswsw,nmzhxb5,126,Manual Code Verification,,,
+1omswsw,nn06bie,128,Memory/Context Isolation,,,Logging and Monitoring
+1omswsw,nn4q4ex,135,Manual Code Verification,,,Manual Code Verification;Memory/Context Isolation;Use Version Control
+1omswsw,nn5eq45,136,Manual Code Verification,,,Manual Code Verification
+1omswsw,nn631ph,137,Manual Code Verification,,,
+1omswsw,nn9mcph,139,Manual Code Verification,,,Logging and Monitoring;Manual Code Verification
+1omswsw,nnkvh7a,142,Manual Code Verification,,,
+1omswsw,nnt4pm4,145,Manual Code Verification,,,Manual Code Verification;Use Version Control
+1omswsw,nnuw2r2,146,Manual Code Verification,,,
+1omswsw,nmuxqaw,151,Manual Code Verification,,,Manual Code Verification
+1omswsw,nmteoka,150,Secure IDE Configuration,,,
+1l5d4h6,mwkobud,1,Manual Code Verification,,,Refer to Documentation
+1l5d4h6,mwg9v1d,3,Memory/Context Isolation,,,Memory/Context Isolation;Use Version Control
+1l5d4h6,mwg29ky,6,Refer to Documentation,,,Refer to Documentation
+1l5d4h6,mwg3eoi,17,Consult Vendors,,,Tool/Extension Monitoring
+1l5d4h6,mwi65sh,26,Manual Code Verification,,,
+1l5d4h6,mwgavpo,29,Memory/Context Isolation;Refer to Documentation,,,Memory/Context Isolation;Refer to Documentation
+1l5d4h6,mwmifs8,32,Manual Code Verification,,,
+1l5d4h6,mwgc8oi,33,Refer to Documentation,,,Refer to Documentation
+1l5d4h6,mwg6xqy,35,Manual Code Verification,,,Manual Code Verification
+1l5d4h6,n07ouoj,42,Manual Code Verification,,,Manual Code Verification;Use Version Control
+1l5d4h6,mzr4dez,41,Refer to Documentation,,,Refer to Documentation
+1l5d4h6,mwg4m4r,43,Refer to Documentation,,,
+1lbb85f,mxr787b,0,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1lbb85f,mxtz0lo,10,Sandboxing,,,Secure IDE Configuration
+1lbb85f,mxshe3h,12,Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1lbb85f,mxtkdyp,9,Sandboxing,,,Sandboxing
+1lbb85f,mxwd6gf,11,Sandboxing,,,Sandboxing
+1lbb85f,mxrhryb,14,Sandboxing;Secure IDE Configuration,,,Sandboxing;Use Version Control
+1lbb85f,mxrv0cq,15,Sandboxing,,,Sandboxing
+1lbb85f,n4twc59,24,Sandboxing,,,Sandboxing
+1lzxl4u,n35dkek,0,Manual Code Verification,,,Secure IDE Configuration;Sensitive File Protection
+1m6je1i,n4kimbi,4,Manual Code Verification,,,Manual Code Verification
+1m6je1i,n55szua,14,Tool/Extension Monitoring,,,
+1m6je1i,n55r008,13,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration;Tool/Extension Monitoring
+1m6je1i,n4kyrw4,15,Memory/Context Isolation,,,Memory/Context Isolation
+1m6ibeq,n4jtfks,0,Use Version Control,,,Use Version Control
+1m6ibeq,n4jzzgt,6,Use Version Control,,,Refer to Documentation;Use Version Control
+1m6ibeq,n4k1lq1,7,Use Version Control,,,Use Version Control
+1n8yztt,ncm50sm,1,Refer to Documentation;Sandboxing,,,Refer to Documentation;Secure IDE Configuration
+1n8yztt,nciqxz3,0,Refer to Documentation;Sandboxing;Secure IDE Configuration,,,Refer to Documentation;Sandboxing;Secure IDE Configuration
+1n8yztt,nd18lw1,3,Secure IDE Configuration,,,
+1n8yztt,ncj1ri7,2,Secure IDE Configuration,,,
+1n8yztt,ned7vyh,4,Secure IDE Configuration,,,
+1j49727,mhkakli,2,Consult Vendors,,,
+1j49727,mg6x0vr,1,Consult Vendors,,,Consult Vendors
+1eact1d,lel476g,1,Consult Vendors;Disable Telemetry,,,Consult Vendors;Disable Telemetry;Secure IDE Configuration
+1fw7z93,lqe0uzq,2,Use Version Control,,,Use Version Control
+1fw7z93,lqf2tkt,1,Memory/Context Isolation,,,
+1fw7z93,lqf8dic,3,Use Version Control,,,Use Version Control
+1i6kwv6,m8jsql0,0,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1i6kwv6,m8otae7,2,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1l7fgpk,mwzfczo,1,Sandboxing,,,Sandboxing
+1l7fgpk,mwwagos,0,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration
+1l7fgpk,mwwoiws,2,Use Version Control,,,Secure IDE Configuration;Use Version Control
+1l7fgpk,naekbuy,7,Sandboxing;Secure IDE Configuration,,,Manual Code Verification;Sandboxing;Use Version Control
+1ld40ww,my60o55,0,Refer to Documentation;Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1ld40ww,my703ca,10,Sensitive File Protection,,,
+1n0uojf,naug8en,7,Manual Code Verification;Sandboxing;Secure IDE Configuration,,,Manual Code Verification;Sandboxing;Secure IDE Configuration
+1n0uojf,nazm585,8,Sandboxing;Tool/Extension Monitoring;Use Version Control,,,Sandboxing;Tool/Extension Monitoring;Use Version Control
+1n0uojf,nzb7pxa,10,Secure IDE Configuration,,,Secure IDE Configuration
+1efyjx1,n5hutm7,1,Refer to Documentation;Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1efyjx1,lhvo2fj,0,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+18m3k29,ke1mzch,2,Sensitive File Protection,,,
+1cxbcom,l51uk5s,0,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1iwn64e,mefx4ck,0,Refer to Documentation,,,Refer to Documentation
+1np4jp9,nfzahy2,0,Secure IDE Configuration,,,Secure IDE Configuration
+1np4jp9,nog15r1,2,Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration;Use Version Control
+1o6kzv1,njl5py4,3,Manual Code Verification,,,
+1o6kzv1,njh6fgz,5,Secure IDE Configuration,,,Secure IDE Configuration
+1o6kzv1,njshpjk,7,Secure IDE Configuration,,,Secure IDE Configuration
+1o6kzv1,njjedld,8,Use Version Control,,,Use Version Control
+1o6kzv1,nk90i7m,11,Use Version Control,,,
+1o6kzv1,njiiv2i,12,Sandboxing;Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration;Sensitive File Protection
+1o6kzv1,njj0hx7,13,Sandboxing;Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1h41y5t,m0263wi,2,Consult Vendors,,,Consult Vendors
+1i23dwc,m7kn9m0,1,Logging and Monitoring;Manual Code Verification,,,
+1i23dwc,m7dqq7d,9,Manual Code Verification,,,Manual Code Verification
+1i23dwc,m7p4td2,11,Manual Code Verification,,,Manual Code Verification
+1i3kwc5,m7noqiz,0,Sensitive File Protection,,,Sensitive File Protection;Use Version Control
+1i3kwc5,m7pmlvu,5,Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1i3kwc5,nfobme2,8,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1i3kwc5,m7xmlvg,7,Refer to Documentation,,,Refer to Documentation
+1i8rwzl,m8y7jpt,3,Consult Vendors;Secure IDE Configuration,,,Consult Vendors;Logging and Monitoring;Secure IDE Configuration
+1i8rwzl,m8vzliu,0,Manual Code Verification,,,Manual Code Verification
+1i8rwzl,m91w4d3,4,Consult Vendors,,,
+1i8rwzl,m8yzbgf,5,Consult Vendors,,,Use Version Control
+1igs6s8,mard0pr,2,Use Version Control,,,Use Version Control
+1igs6s8,mar8d1p,1,Use Version Control,,,Use Version Control
+1igs6s8,marivog,4,Use Version Control,,,Use Version Control
+1igs6s8,marlpc3,3,Refer to Documentation;Use Version Control,,,Refer to Documentation;Use Version Control
+1igs6s8,marmoi2,5,Use Version Control,,,Use Version Control
+1igs6s8,mbkfdpi,14,Data Recovery,Uncategorized,Data Recovery,
+1nmlvi9,nfdxxy8,5,Use Version Control,,,Use Version Control
+1nmlvi9,nfjegnk,4,Manual Code Verification,,,
+1nmlvi9,nfe8pvh,7,Use Version Control,,,Use Version Control
+1nmlvi9,nfjekl8,6,Manual Code Verification,,,
+1nmlvi9,nfjeixl,9,Use Version Control,,,
+1nmlvi9,nff4h8t,8,Use Version Control,,,
+1nmlvi9,nfdycvw,10,Logging and Monitoring,,,Logging and Monitoring;Manual Code Verification
+1oeprec,nl3hmfm,0,Secure IDE Configuration,,,Secure IDE Configuration
+1oeprec,nl7dpge,2,Refer to Documentation,,,Refer to Documentation
+1ol3iaj,nmg9uyy,0,Manual Code Verification,,,Manual Code Verification;Use Version Control
+1olvmxn,nmkrsxp,0,Use Version Control,,,Use Version Control
+1ol3iaj,nmiq3ya,4,Sandboxing;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1olvmxn,nml7rro,2,Use Version Control,,,Manual Code Verification
+1olvmxn,nmlf68x,3,Memory/Context Isolation,,,
+1olvmxn,nmrnbhs,8,Refer to Documentation;Use Version Control,,,Manual Code Verification
+1olvmxn,nmvf1ie,12,Use Version Control,,,Use Version Control
+1gkj4xr,lvm7om8,2,Use Version Control,,,Use Version Control
+1gkj4xr,lvt4fy7,4,Use Version Control,,,Use Version Control
+1gkj4xr,lw563ob,6,Use Version Control,,,Use Version Control
+1gob64s,lwn9ea2,0,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1gkj4xr,mhpq6qg,10,Use Version Control,,,Use Version Control
+1inv17z,mceokc2,2,Secure IDE Configuration,,,Memory/Context Isolation
+1inv17z,mcinoth,3,Consult Vendors,,,
+1inv17z,mckypgg,5,Consult Vendors,,,
+1iq4c48,md6o833,0,Secure IDE Configuration,,,Secure IDE Configuration
+1iv14f8,me2vzce,0,Sensitive File Protection,,,Sensitive File Protection
+1ixbh9u,mekssc3,0,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification
+1ixbh9u,memug7q,1,Manual Code Verification;Use Version Control,,,Tool/Extension Monitoring;Use Version Control
+1ixbh9u,mii7ff5,3,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1ixbh9u,mf1n0fd,2,Manual Code Verification;Secure IDE Configuration,,,Logging and Monitoring;Manual Code Verification;Secure IDE Configuration
+1ixbh9u,mxdqvof,4,Secure IDE Configuration,,,Tool/Extension Monitoring
+1ixbh9u,melzvpr,5,Manual Code Verification,,,
+1j4lgm1,mg9r5n4,2,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1j70y2h,mgtavp9,0,Refer to Documentation,,,Refer to Documentation
+1jbe4wl,mhtd3ig,4,Use Version Control,,,Use Version Control
+1jbe4wl,mhvz8et,6,Use Version Control,,,Use Version Control
+1jbe4wl,mi3tua0,7,Use Version Control,,,
+1jfa9gu,miqfwq7,0,Manual Code Verification,,,Manual Code Verification
+1jbe4wl,mhuqmnr,15,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration;Sensitive File Protection
+1jijrxn,n05brb8,7,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1jijrxn,mjgiggg,10,Sensitive File Protection,,,Refer to Documentation;Sensitive File Protection
+1jijrxn,mjgv2r1,13,Sensitive File Protection,,,
+1joayf1,mks5ck5,1,Refer to Documentation,,,
+1jqf1u5,ml6k8x0,0,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1jqf1u5,ml9lrl2,11,Use Version Control,,,
+1jqf1u5,mlcip84,13,Consult Vendors,,,Consult Vendors
+1jqf1u5,ml8kkpy,10,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1jqf1u5,ml8nuxx,24,Manual Code Verification,,,Manual Code Verification
+1jqf1u5,mlauuei,33,Secure IDE Configuration,,,
+1jvxsxi,mmeliqv,9,Secure IDE Configuration;Use Version Control,,,Use Version Control
+1jvxsxi,mmfb33r,11,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1jvxsxi,mmp6cr5,12,Secure IDE Configuration,,,Secure IDE Configuration
+1k3mz71,mo4csj3,2,Sensitive File Protection,,,Consult Vendors;Sensitive File Protection
+1k5xa64,molh7st,0,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1k7xqzz,mp26tck,1,Use Version Control,,,Use Version Control
+1k7xqzz,mp1vbn4,0,Use Version Control,,,Use Version Control
+1k7xqzz,mp2m6bg,3,Use Version Control,,,Use Version Control
+1k7xqzz,mp3qvqc,6,Use Version Control,,,Use Version Control
+1k7xqzz,mp2ge94,9,Use Version Control,,,Use Version Control
+1k7xqzz,mp40d65,13,Use Version Control,,,Use Version Control
+1k7xqzz,n1osg4t,10,Use Version Control,,,Use Version Control
+1k7xqzz,mp34jws,12,Use Version Control,,,
+1k7xqzz,mp2m7s0,14,Secure IDE Configuration,,,Secure IDE Configuration
+1k7xqzz,mp3q4tq,16,Use Version Control,,,Use Version Control
+1k7xqzz,mpa3djn,18,Use Version Control,,,Use Version Control
+1k7xqzz,mp1x2t6,20,Use Version Control,,,Use Version Control
+1k7xqzz,nxv5rib,19,Use Version Control,,,Use Version Control
+1k7xqzz,nmr0zhm,21,Use Version Control,,,
+1k9q50m,mpg7mti,5,Sensitive File Protection,,,Sensitive File Protection
+1k9q50m,mphrl8e,4,Sensitive File Protection,,,Sensitive File Protection
+1k9q50m,mpgq84p,7,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1k9q50m,mpgasqz,6,Sensitive File Protection,,,
+1k9q50m,mpmkset,9,Sensitive File Protection,,,Sensitive File Protection
+1k9q50m,mphzzlk,8,Sensitive File Protection,,,Sensitive File Protection
+1kb8y7g,mpslgyh,0,Use Version Control,,,Use Version Control
+1kb8y7g,mpssxmt,5,Use Version Control,,,Use Version Control
+1kb8y7g,mpt97ut,7,Use Version Control,,,
+1kb8y7g,mpst090,6,Secure IDE Configuration;Use Version Control,,,Use Version Control
+1kb8y7g,mpt3ch6,9,Use Version Control,,,Use Version Control
+1kb8y7g,mpsyila,8,Use Version Control,,,Use Version Control
+1kb8y7g,mpy66ca,11,Use Version Control,,,Use Version Control
+1kb8y7g,mpu21g4,10,Use Version Control,,,Use Version Control
+1kb8y7g,mpsvbrl,13,Use Version Control,,,Use Version Control
+1kb8y7g,mpyb3ed,12,Use Version Control,,,Use Version Control
+1kmv6to,msjio07,1,Sensitive File Protection,,,
+1kmv6to,msj59c8,3,Use Version Control,,,Sensitive File Protection;Use Version Control
+1kmv6to,msdmtmj,0,Sensitive File Protection,,,
+1kmv6to,msk9lnc,2,Sensitive File Protection,,,Sensitive File Protection;Use Version Control
+1krgxp3,mtdodff,0,Secure IDE Configuration,,,
+1kmv6to,msjhvm2,4,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1krgxp3,mteu910,2,Secure IDE Configuration,,,Tool/Extension Monitoring
+1krgxp3,mtip0j4,6,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration
+1krgxp3,mtfxr74,9,Secure IDE Configuration,,,Tool/Extension Monitoring
+1krgxp3,mtmql10,12,Secure IDE Configuration,,,Tool/Extension Monitoring
+1krgxp3,mtggp6x,11,Secure IDE Configuration,,,Secure IDE Configuration
+1kxk3c9,muqjkao,0,Secure IDE Configuration,,,Secure IDE Configuration
+1l27xof,mvqtypz,1,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l27xof,mvqt9mz,0,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l27xof,mvqw825,3,Sensitive File Protection,,,
+1l27xof,mvqvofz,2,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l27xof,mvr4s7r,4,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1l3wwq3,mw49evq,0,Memory/Context Isolation,,,Memory/Context Isolation
+1l3wwq3,mw5bybg,1,Memory/Context Isolation,,,Memory/Context Isolation
+1l3wwq3,mw5cwaq,2,Memory/Context Isolation,,,Memory/Context Isolation
+1l3wwq3,mw5fy9n,3,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1l3wwq3,mw6jns8,9,Manual Code Verification;Memory/Context Isolation;Use Version Control,,,Manual Code Verification;Memory/Context Isolation;Use Version Control
+1l3wwq3,mw4da2a,12,Memory/Context Isolation;Secure IDE Configuration,,,Memory/Context Isolation;Tool/Extension Monitoring
+1l3wwq3,mw6lj0i,11,Use Version Control,,,Use Version Control
+1l3wwq3,mw4a6mn,14,Memory/Context Isolation;Use Version Control,,,Manual Code Verification;Memory/Context Isolation;Use Version Control
+1l3wwq3,mw5d4rc,16,Memory/Context Isolation,,,
+1l3wwq3,mw5bw0a,15,Memory/Context Isolation,,,Memory/Context Isolation
+1l3wwq3,mw5eot2,17,Memory/Context Isolation,,,Memory/Context Isolation
+1l7fwgk,mwws2du,4,Sensitive File Protection,,,Sensitive File Protection
+1l7fwgk,mwxxwqr,6,Sensitive File Protection,,,Sensitive File Protection
+1l7fwgk,mx38h30,13,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l7fwgk,mwxo57r,18,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l7fwgk,mwyx1ql,30,Sensitive File Protection,,,Sensitive File Protection
+1l7fwgk,mwz68qz,29,Sensitive File Protection,,,
+1l7fwgk,mx5kj7w,31,Sensitive File Protection,,,Manual Code Verification
+1lbu4vi,mxvhgk7,3,Secure IDE Configuration,,,Secure IDE Configuration
+1lk4a7s,mzoptlc,1,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1lk4a7s,mzoz7mw,3,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1lk4a7s,mzosy6l,2,Secure IDE Configuration;Sensitive File Protection,,,Sensitive File Protection;Use Version Control
+1lk4a7s,mzqkwdo,19,Use Version Control,,,Use Version Control
+1lk4a7s,mzqfvfz,21,Memory/Context Isolation;Sensitive File Protection,,,Secure IDE Configuration
+1lrb7wu,n19ecgo,0,Consult Vendors,,,
+1lrb7wu,n19lfrp,4,Manual Code Verification,,,Manual Code Verification
+1m84moo,n4wc7t7,0,Consult Vendors,,,
+1m84moo,n4wipsw,11,Secure IDE Configuration,,,
+1m84moo,n4wtzlz,14,Manual Code Verification;Secure IDE Configuration,,,
+1m84moo,n4wub4n,19,Use Version Control,,,Use Version Control
+1m84moo,n4wydaf,22,Secure IDE Configuration,,,Secure IDE Configuration
+1m84moo,n4x0992,26,Consult Vendors,,,Consult Vendors
+1m84moo,n4x2poq,28,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration;Sensitive File Protection
+1m84moo,n4xjgoy,30,Secure IDE Configuration,,,Secure IDE Configuration
+1m84moo,n51g41o,41,Memory/Context Isolation,,,Memory/Context Isolation
+1m84moo,n548pjm,47,Use Version Control,,,Use Version Control
+1mhfihm,n6wu7x3,4,Sensitive File Protection,,,Sensitive File Protection
+1mhfihm,n6wahze,3,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1mhfihm,n71l9l8,5,Sensitive File Protection,,,Sensitive File Protection
+1mibz5p,n72ei6o,0,Consult Vendors,,,
+1mibz5p,n72fvd2,2,Use Version Control,,,Secure IDE Configuration;Use Version Control
+1mibz5p,n7517n1,7,Secure IDE Configuration;Use Version Control,,,
+1mp95l5,n8lmz3b,30,Manual Code Verification;Sandboxing,,,Sandboxing
+1mp95l5,n8i71rv,51,Manual Code Verification;Memory/Context Isolation,,,Manual Code Verification;Memory/Context Isolation
+1mp95l5,n8j4ogf,52,Manual Code Verification,,,Manual Code Verification
+1mp95l5,n8ndf15,61,Manual Code Verification,,,Manual Code Verification
+1mp95l5,n8mh237,60,Secure IDE Configuration,,,Secure IDE Configuration
+1mpoit9,n8m05j4,0,Consult Vendors,,,Consult Vendors
+1mpoit9,n92tdhe,5,Check Organizational Compliance;Consult Vendors,,,Consult Vendors
+1mpoit9,n92ymwz,6,Consult Vendors,,,Consult Vendors
+1mpxudj,n8mtu2v,0,Manual Code Verification;Use Version Control,,,Manual Code Verification;Use Version Control
+1mpoit9,n8lr0ez,12,Secure IDE Configuration,,,Secure IDE Configuration
+1mpxudj,n8myc0m,8,Use Version Control,,,Use Version Control
+1mpxudj,n8mwgjd,7,Use Version Control,,,Use Version Control
+1mpxudj,n8n75ck,10,Use Version Control,,,Use Version Control
+1mpxudj,n8o0nf5,11,Use Version Control,,,
+1mpxudj,n8n7z9g,15,Use Version Control,,,Use Version Control
+1mpxudj,n8myylz,16,Use Version Control,,,Use Version Control
+1mpxudj,n8muf51,17,Manual Code Verification;Secure IDE Configuration;Use Version Control,,,Manual Code Verification;Secure IDE Configuration;Use Version Control
+1msesbb,n952uzm,0,Manual Code Verification,,,Manual Code Verification
+1mw1x5c,n9udy20,1,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1mw1x5c,n9uiw1d,2,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1mx43cd,na25e25,2,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na26l46,4,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2amja,8,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1mx43cd,na2aqq3,9,Secure IDE Configuration,,,
+1mx43cd,na2ju0z,13,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2c50x,26,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2btoq,25,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2gub1,30,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2ez6l,33,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2j06y,42,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2nffc,53,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1mx43cd,na2vdgo,55,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na410cu,58,Sandboxing,,,Sandboxing
+1mx43cd,na2w1ca,62,Refer to Documentation,,,Refer to Documentation;Secure IDE Configuration
+1mx43cd,na61cfy,63,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2bem0,65,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2lgbg,69,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2wmcp,70,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2x9c4,71,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1mx43cd,na320s5,73,Secure IDE Configuration,,,Secure IDE Configuration
+1mx43cd,na2mh7c,76,Secure IDE Configuration,,,Secure IDE Configuration
+1mz04nx,nafql51,2,Secure IDE Configuration,,,Secure IDE Configuration
+1mz04nx,nafq9i2,1,Secure IDE Configuration,,,Secure IDE Configuration
+1mz04nx,nagbi3a,3,Secure IDE Configuration,,,
+1mz04nx,nagg032,8,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1mz04nx,nag52j7,7,Secure IDE Configuration,,,Secure IDE Configuration
+1mz04nx,nag27ac,9,Sandboxing,,,Use Version Control
+1mza047,naisemv,0,Use Version Control,,,Use Version Control
+1mza047,najwyvw,1,Use Version Control,,,Use Version Control
+1n02lqq,naoa0qw,1,Use Version Control,,,Use Version Control
+1n02lqq,nao9oqz,3,Use Version Control,,,Use Version Control
+1n02lqq,nao5owu,10,Secure IDE Configuration,,,Secure IDE Configuration
+1n02lqq,naox7jw,14,Sandboxing;Secure IDE Configuration,,,
+1n1gdzr,naywm3s,4,Memory/Context Isolation,,,Memory/Context Isolation
+1n1zdwp,nb2671r,1,Secure IDE Configuration,,,Secure IDE Configuration
+1n1gdzr,nb3y44e,8,Memory/Context Isolation,,,Memory/Context Isolation
+1n1zdwp,nb7pn1g,6,Secure IDE Configuration,,,Secure IDE Configuration
+1n1zdwp,nb3i2z4,8,Secure IDE Configuration,,,Secure IDE Configuration
+1n507km,nbp2bx4,1,Secure IDE Configuration,,,
+1n507km,nbp1mwo,0,Manual Code Verification;Sandboxing;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1n507km,nc1f8ls,3,Manual Code Verification,,,Manual Code Verification
+1n8cs83,nck5bab,2,Logging and Monitoring;Manual Code Verification,,,Logging and Monitoring;Manual Code Verification
+1npxaw1,ngcwyni,1,Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1nvb5vf,nh7g0i1,1,Use Version Control,,,Use Version Control
+1nvb5vf,nh7f4lv,3,Use Version Control,,,Use Version Control
+1nvb5vf,nh7hpvq,4,Use Version Control,,,Use Version Control
+1nvb5vf,nh7krh9,5,Use Version Control,,,Use Version Control
+1nvb5vf,nh97220,6,Use Version Control,,,Use Version Control
+1nvb5vf,nhajake,7,Use Version Control,,,Use Version Control
+1nvb5vf,nh7nboq,8,Use Version Control,,,Use Version Control
+1nypxsw,nhz7hf1,3,Secure IDE Configuration,,,Secure IDE Configuration
+1nypxsw,nhwo4mg,7,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification
+1ocm0e0,nksymha,2,Secure IDE Configuration,,,Secure IDE Configuration
+1ocm0e0,nkr0jng,7,Secure IDE Configuration,,,Secure IDE Configuration
+1ofmt2v,nlbk1n8,1,Sandboxing;Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration
+1ofmt2v,nmetnch,3,Sandboxing,,,Sandboxing
+1ofmt2v,nla41av,0,Consult Vendors,,,
+1ofuv36,nlbv8tx,2,Secure IDE Configuration,,,
+1ofuv36,nlc0sax,5,Sensitive File Protection,,,Check Organizational Compliance;Secure IDE Configuration;Sensitive File Protection;Use Version Control
+1ofuv36,nlf4w6d,17,Check Organizational Compliance,,,Check Organizational Compliance;Secure IDE Configuration
+1ofuv36,nlfx0u7,20,Secure IDE Configuration,,,Secure IDE Configuration
+1ood7t2,nn4174u,0,Refer to Documentation,,,
+1ortu5j,no71c6h,3,Secure IDE Configuration,,,
+1jqd58v,ml68s3w,0,Use Version Control,,,Use Version Control
+1oum96u,nons709,24,Manual Code Verification,,,Manual Code Verification
+1jwa2pt,mmgzwkp,1,Manual Code Verification;Sensitive File Protection,,,Manual Code Verification;Use Version Control
+1jwa2pt,mmh1gql,3,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection;Use Version Control
+1jwa2pt,mmgwtxm,10,Sensitive File Protection,,,Sensitive File Protection
+1jwa2pt,mmhr3ch,12,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1jwa2pt,mmgw5ue,9,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration;Tool/Extension Monitoring
+1jwa2pt,mmgx531,11,Manual Code Verification,,,Manual Code Verification
+1jz2b48,mn7l9f0,0,Logging and Monitoring,,,Logging and Monitoring
+1k34mrn,mnz9ryo,1,Use Version Control,,,Use Version Control
+1k34mrn,mnz9l5w,0,Use Version Control,,,Use Version Control
+1k34mrn,mnzdui0,3,Use Version Control,,,
+1k34mrn,mo7z072,4,Use Version Control,,,Use Version Control
+1k34mrn,mnzawl7,9,Use Version Control,,,Use Version Control
+1k34mrn,mnzhojm,10,Use Version Control,,,Use Version Control
+1k34mrn,mnzcee0,11,Use Version Control,,,
+1k34mrn,mnzarl7,12,Use Version Control,,,Use Version Control
+1k34mrn,mnz8hjn,17,Use Version Control,,,
+1k34mrn,mnz9erw,18,Use Version Control,,,Use Version Control
+1k34mrn,mnz9o5l,19,Use Version Control,,,
+1k34mrn,mnzcok6,21,Use Version Control,,,Use Version Control
+1k34mrn,muuvivo,25,Secure IDE Configuration;Use Version Control,,,Sandboxing;Secure IDE Configuration;Use Version Control
+1k34mrn,mutzbq7,24,Use Version Control,,,Use Version Control
+1k34mrn,nf15doq,27,Use Version Control,,,
+1k34mrn,muxyqm5,26,Sensitive File Protection,,,Use Version Control
+1k34mrn,mnzaady,29,Use Version Control,,,
+1k34mrn,nf16o4k,28,Secure IDE Configuration,,,Secure IDE Configuration
+1k34mrn,mnzcuql,30,Use Version Control,,,Use Version Control
+1k34mrn,mnzent0,35,Use Version Control,,,
+1k34mrn,mnzm4o0,39,Use Version Control,,,Use Version Control
+1k34mrn,mnzkeog,38,Use Version Control,,,Use Version Control
+1k34mrn,mnzn9ah,41,Use Version Control,,,Use Version Control
+1k34mrn,nl391yd,46,Use Version Control,,,Use Version Control
+1l9mrd3,mxe1qdo,0,Manual Code Verification,,,Manual Code Verification
+1l9mrd3,mxds5d7,6,Secure IDE Configuration,,,Secure IDE Configuration
+1l9mrd3,mxdq461,5,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification
+1l9mrd3,mxflyjr,7,Manual Code Verification,,,Manual Code Verification
+1l9mrd3,mxm62ph,9,Secure IDE Configuration,,,Secure IDE Configuration
+1l9mrd3,mxouqgu,12,Secure IDE Configuration,,,
+1l9mrd3,mxfwzb1,11,Secure IDE Configuration,,,Secure IDE Configuration
+1mr2767,n8uqwpn,0,Consult Vendors,,,
+1m83bv0,n4zl5n8,4,Use Version Control,,,Use Version Control
+1n15f7u,navq6qk,1,Use Version Control,,,Use Version Control
+1n15f7u,navqdno,2,Use Version Control,,,
+1n15f7u,navtcbe,16,Use Version Control,,,Use Version Control
+1n15f7u,naw1b6p,18,Use Version Control,,,Use Version Control
+1n15f7u,navt04i,24,Use Version Control,,,
+1n15f7u,navtavr,26,Use Version Control,,,Use Version Control
+1n15f7u,navts79,29,Use Version Control,,,Use Version Control
+1n15f7u,nawjcjv,28,Use Version Control,,,Use Version Control
+1n15f7u,naw5rpe,35,Use Version Control,,,Use Version Control
+1n15f7u,negyuc4,39,Use Version Control,,,
+1n15f7u,navujsv,41,Use Version Control,,,
+1n15f7u,naweznt,44,Use Version Control,,,Use Version Control
+1odue4j,nkwqttz,1,Secure IDE Configuration,,,
+1gijbgw,lv6f3ad,3,Use Local LLM,,,
+1gijbgw,lv98oyq,5,Use Local LLM,,,Use Local LLM
+1gijbgw,lv6lqay,7,Sensitive File Protection;Use Local LLM,,,Use Local LLM
+1gijbgw,lvbfme9,9,Secure IDE Configuration,,,Logging and Monitoring;Tool/Extension Monitoring
+1gijbgw,lw5go9b,24,Check Organizational Compliance,,,Check Organizational Compliance
+1gijbgw,lv6mt3s,30,Use Local LLM,,,Use Local LLM
+1gijbgw,lvbpb4q,48,Use Local LLM,,,Check Organizational Compliance;Use Local LLM
+1gijbgw,lv7lkl6,90,Use Local LLM,,,
+1gijbgw,lv7rhjt,89,Use Local LLM,,,Use Local LLM
+1gijbgw,lv5xnj9,106,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1gijbgw,lvatnp9,108,Refer to Documentation,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1gijbgw,lvbi0rk,110,Sensitive File Protection,,,
+1gijbgw,lv77joq,112,Sensitive File Protection,,,Consult Vendors;Refer to Documentation;Secure IDE Configuration
+1gijbgw,lv60e3s,117,Disable Telemetry;Secure IDE Configuration;Sensitive File Protection,,,Disable Telemetry;Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1gijbgw,lv6bysb,133,Use Local LLM,,,Sandboxing;Secure IDE Configuration;Use Local LLM
+1gijbgw,lv6qhh0,135,Check Organizational Compliance,,,Check Organizational Compliance;Secure IDE Configuration
+1gijbgw,nldymjv,154,Secure IDE Configuration,,,Secure IDE Configuration
+1gijbgw,lvcdhjs,163,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection;Use Local LLM
+1gijbgw,lv5zwhj,168,Sensitive File Protection,,,Sensitive File Protection
+1gijbgw,lvah37q,171,Sensitive File Protection,,,Sensitive File Protection
+1gijbgw,lv63v83,173,Sensitive File Protection,,,Sensitive File Protection
+1gijbgw,lv6joij,180,Use Local LLM,,,
+1gijbgw,mvl2lvu,182,Secure IDE Configuration;Sensitive File Protection,,,Sensitive File Protection
+1k61drp,mp1g4wo,6,Manual Code Verification,,,Manual Code Verification
+1k61drp,momie6d,5,Manual Code Verification,,,
+1k61drp,mq8uwgn,9,Manual Code Verification,,,Manual Code Verification;Use Version Control
+1k61drp,mopy3mi,15,Manual Code Verification,,,Manual Code Verification
+1ldignq,myjztnq,8,Secure IDE Configuration,,,Secure IDE Configuration
+1ldignq,my8rge0,56,Sensitive File Protection,,,
+1ldignq,myacigk,59,Secure IDE Configuration,,,Secure IDE Configuration
+1ldignq,myb61ro,60,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Tool/Extension Monitoring
+1ldignq,myxx8v8,68,Secure IDE Configuration;Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1ldignq,nkx2ak9,73,Secure IDE Configuration,,,Secure IDE Configuration
+1k3dyki,mo21y24,0,Use Version Control,,,
+1k3dyki,mofz1aq,3,Manual Code Verification;Use Version Control,,,Secure IDE Configuration;Use Version Control
+1k3dyki,mo1l48z,2,Use Version Control,,,Use Version Control
+1k3dyki,mojk2n1,7,Secure IDE Configuration,,,
+1kumsea,mu6dpnl,13,Secure IDE Configuration,,,Secure IDE Configuration
+1m5biur,n4b47gd,1,Use Version Control,,,Use Version Control
+1m5biur,n4mokr6,4,Use Version Control,,,
+1m5biur,n4n9fq7,5,Use Version Control,,,Secure IDE Configuration;Use Version Control
+1m5biur,n4asr8x,11,Sandboxing,,,Sandboxing
+1m5biur,n4b0mm0,25,Use Version Control,,,Manual Code Verification;Use Version Control
+1m5biur,n4hct65,40,Use Version Control,,,Use Version Control
+1m5biur,n4lpj62,44,Use Version Control,,,
+1m5biur,n8law6b,49,Use Version Control,,,
+1m9p9x5,n83gv9s,11,Use Version Control,,,Use Version Control
+1m9p9x5,n5bjm5g,10,Manual Code Verification,,,
+1mb6wka,n5kd1x7,2,Manual Code Verification,,,
+1n11a3e,nb47of8,7,Refer to Documentation,,,Refer to Documentation
+1n11a3e,nb47a02,10,Use Version Control,,,Use Version Control
+1n11a3e,nb46n6f,9,Manual Code Verification;Refer to Documentation;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1n11a3e,nbuuk77,15,Check Organizational Compliance,,,Secure IDE Configuration
+1n4dd8h,nbmdwep,1,Memory/Context Isolation,,,
+1k36kmj,mnzqyrn,0,Use Local LLM,,,Sensitive File Protection;Use Local LLM
+1lbgzq3,mxy7ixr,0,Use Version Control,,,Use Version Control
+1lbgzq3,mxxlyt5,2,Secure IDE Configuration;Use Version Control,,,Use Version Control
+1ld3qlz,my5clqk,2,Secure IDE Configuration,,,Secure IDE Configuration
+1ld3qlz,my6d80w,27,Secure IDE Configuration,,,
+1ld3qlz,my7wvjn,30,Consult Vendors,,,Manual Code Verification
+1ld3qlz,my5t0di,37,Manual Code Verification,,,Manual Code Verification
+1ll3ii4,mzytgms,1,Manual Code Verification,,,Manual Code Verification
+1ll3ii4,mzyrfsy,0,Manual Code Verification,,,
+1ll3ii4,n0790fg,2,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1lrbov5,n19m8x3,0,Manual Code Verification,,,Manual Code Verification
+1lrbov5,n1a4vqx,18,Manual Code Verification,,,
+1lrbov5,n1ci3gm,23,Tool/Extension Monitoring,,,Tool/Extension Monitoring
+1lrbov5,n1bdmac,29,Manual Code Verification,,,Manual Code Verification
+1lrbov5,n1avgb9,57,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1lrbov5,n1bdgxo,59,Secure IDE Configuration,,,Manual Code Verification
+1lrbov5,n1b701o,61,Manual Code Verification,,,Manual Code Verification
+1lrbov5,n1baxrs,62,Manual Code Verification,,,Manual Code Verification
+1lrbov5,n1bespc,63,Manual Code Verification,,,Manual Code Verification
+1lrbov5,n1bu5go,64,Manual Code Verification,,,Manual Code Verification
+1m4yrjx,n4824wn,2,Manual Code Verification,,,Manual Code Verification
+1m70vxh,n4oiyi7,0,Logging and Monitoring,,,Logging and Monitoring
+1ma03ns,n5elcn6,0,Manual Code Verification;Secure IDE Configuration,,,
+1ma03ns,n5f12yy,2,Manual Code Verification,,,
+1ma03ns,n5f0av2,1,Manual Code Verification,,,Sensitive File Protection
+1ma03ns,n5f2g2d,3,Manual Code Verification,,,Manual Code Verification
+1n6pevq,ncqv8u6,13,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc1o4q2,15,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc4oacu,17,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration
+1n6pevq,nc2pv1s,18,Disable Telemetry;Use Local LLM,,,
+1n6pevq,nc36blv,19,Manual Code Verification,,,
+1n6pevq,nc3rqbi,20,Secure IDE Configuration,,,Manual Code Verification;Refer to Documentation
+1n6pevq,ncda6ke,21,Refer to Documentation,,,
+1n6pevq,nc26nfg,23,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc1za6e,22,Manual Code Verification;Use Version Control,,,Logging and Monitoring;Manual Code Verification;Use Version Control
+1n6pevq,nc2sqfy,28,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc6v7wc,30,Manual Code Verification,,,
+1n6pevq,nc21omc,31,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc1qube,35,Manual Code Verification;Use Version Control,,,Logging and Monitoring;Manual Code Verification;Use Version Control
+1n6pevq,nc1xmkp,41,Secure IDE Configuration,,,
+1n6pevq,nc4m21i,44,Manual Code Verification,,,
+1n6pevq,nf95uin,52,Check Organizational Compliance,,,Check Organizational Compliance
+1n6pevq,nc1xz6b,53,Manual Code Verification,,,Manual Code Verification;Use Version Control
+1n6pevq,nc1yg7o,54,Manual Code Verification,,,
+1n6pevq,nc2ywey,58,Refer to Documentation,,,Memory/Context Isolation
+1n6pevq,nc2jse5,60,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc2opt0,62,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration;Use Version Control
+1n6pevq,nc3ggvd,67,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc4f48l,70,Memory/Context Isolation,,,Memory/Context Isolation
+1n6pevq,nc4pwcm,72,Manual Code Verification,,,
+1n6pevq,nc58e0q,75,Manual Code Verification,,,Manual Code Verification
+1n6pevq,nc5haih,77,Sensitive File Protection,,,Manual Code Verification
+1n6pevq,nc5o9ln,78,Manual Code Verification,,,
+1n6pevq,nc5qoao,79,Manual Code Verification,,,
+1n6pevq,nc6szr8,80,Manual Code Verification,,,Logging and Monitoring;Manual Code Verification
+1n6pevq,nc8ep2m,83,Manual Code Verification,,,
+1n6pevq,nc8qvow,84,Manual Code Verification,,,Manual Code Verification;Tool/Extension Monitoring
+1n6pevq,nc9oqoq,86,Manual Code Verification,,,Manual Code Verification
+1n6pevq,ncahend,87,Manual Code Verification,,,
+1naxxnj,nd0h9ab,1,Manual Code Verification,,,Manual Code Verification
+1naxxnj,ncz0vji,0,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration;Tool/Extension Monitoring
+1npqf2f,ng1ik8c,1,Manual Code Verification;Sandboxing;Secure IDE Configuration,,,Manual Code Verification;Sandboxing;Secure IDE Configuration
+1npqf2f,ng16yie,0,Sandboxing,,,Sandboxing
+1npqf2f,ng1jx7z,2,Sandboxing;Sensitive File Protection,,,
+1npqf2f,ng1hbbz,3,Manual Code Verification;Sandboxing,,,Manual Code Verification;Sandboxing;Secure IDE Configuration
+1npqf2f,ngnel0m,4,Manual Code Verification;Sandboxing,,,Manual Code Verification;Sandboxing;Secure IDE Configuration;Sensitive File Protection
+1o3otm0,niwn3l3,8,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification
+1o3otm0,nixko3p,12,Manual Code Verification,,,
+1o3otm0,nixkxdy,13,Use Version Control,,,Manual Code Verification;Tool/Extension Monitoring
+1o3otm0,niz45bc,26,Consult Vendors,,,
+1oasxyc,nkce7jc,5,Manual Code Verification,,,Manual Code Verification
+1oasxyc,nkg96xt,11,Manual Code Verification,,,Manual Code Verification
+1oasxyc,nkce1hn,8,Manual Code Verification,,,Manual Code Verification;Tool/Extension Monitoring
+1oasxyc,nky6qds,25,Manual Code Verification,,,
+1ol7uko,nmhorqm,2,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration;Tool/Extension Monitoring
+1or8jb2,no3hnmc,2,Secure IDE Configuration,,,Manual Code Verification
+1or8jb2,nnt6gdk,9,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nns151f,25,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nnohxtf,28,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nnu66c5,30,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nnopozk,32,Manual Code Verification;Refer to Documentation,,,Refer to Documentation
+1or8jb2,nns0qth,34,Secure IDE Configuration,,,
+1or8jb2,nnotws3,36,Manual Code Verification;Secure IDE Configuration,,,Secure IDE Configuration
+1or8jb2,nnpasgl,38,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration
+1or8jb2,nnpqo8p,40,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nnqg0f9,42,Logging and Monitoring;Manual Code Verification;Use Version Control,,,Logging and Monitoring;Manual Code Verification;Tool/Extension Monitoring;Use Version Control
+1or8jb2,no99gf8,44,Check Organizational Compliance,,,Check Organizational Compliance
+1or8jb2,nnqq36y,47,Manual Code Verification,,,
+1or8jb2,nnplxmi,46,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nnqqqeq,48,Logging and Monitoring;Manual Code Verification;Secure IDE Configuration,,,Logging and Monitoring;Manual Code Verification;Secure IDE Configuration;Use Version Control
+1or8jb2,nnov4mv,58,Manual Code Verification,,,
+1or8jb2,nnozukj,61,Sandboxing;Sensitive File Protection,,,
+1or8jb2,nnparv5,63,Manual Code Verification,,,Manual Code Verification
+1or8jb2,nnphqk1,65,Manual Code Verification,,,
+1or8jb2,nnpp498,69,Manual Code Verification,,,Manual Code Verification
+1or8jb2,no94iq4,71,Secure IDE Configuration,,,Tool/Extension Monitoring
+1or8jb2,nnps2dp,73,Check Organizational Compliance,,,Refer to Documentation
+1or8jb2,nnpzpyc,79,Secure IDE Configuration,,,Secure IDE Configuration
+1or8jb2,nnq3npd,81,Secure IDE Configuration,,,Secure IDE Configuration
+1or8jb2,nnqeq21,82,Check Organizational Compliance,,,Check Organizational Compliance
+1or8jb2,nnuavip,86,Manual Code Verification;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1or8jb2,nr6f365,91,Manual Code Verification,,,Manual Code Verification;Secure IDE Configuration
+1or8jb2,nt0nojo,93,Secure IDE Configuration,,,Secure IDE Configuration
+1or8jb2,nswiz6c,92,Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1or8jb2,nnr7pay,96,Logging and Monitoring;Use Version Control,,,Logging and Monitoring;Manual Code Verification;Use Version Control
+1n4y8ly,nboljfp,0,Manual Code Verification,,,Manual Code Verification
+1n4y8ly,nbqazwo,5,Manual Code Verification,,,Manual Code Verification
+1n4y8ly,nbvr5su,7,Manual Code Verification,,,Logging and Monitoring
+1n4y8ly,nbpstul,6,Manual Code Verification,,,Manual Code Verification
+1n4y8ly,nbpg80w,12,Manual Code Verification,,,Manual Code Verification
+1n4y8ly,nbqme7k,18,Manual Code Verification,,,Manual Code Verification
+1n4y8ly,nbpc6ew,21,Logging and Monitoring;Manual Code Verification,,,Logging and Monitoring
+1n4y8ly,nbqnain,27,Manual Code Verification,,,Manual Code Verification
+1n9tm4t,ncqius1,1,Secure IDE Configuration;Sensitive File Protection,,,Sensitive File Protection
+1n9tm4t,ncpwvr6,0,Check Organizational Compliance;Logging and Monitoring;Secure IDE Configuration;Sensitive File Protection,,,Logging and Monitoring;Sensitive File Protection
+1n9tm4t,ncw6iv3,6,Check Organizational Compliance,,,
+1n9tm4t,ndz6xfs,9,Check Organizational Compliance,,,
+1n9tm4t,ncwkxqz,19,Check Organizational Compliance,,,Check Organizational Compliance
+1n9tm4t,ncwu9e0,21,Sandboxing;Secure IDE Configuration,,,
+1n9tm4t,ncvccwg,28,Secure IDE Configuration,,,Refer to Documentation;Secure IDE Configuration
+1n9tm4t,ncpil1b,31,Secure IDE Configuration;Use Version Control,,,
+1n9tm4t,ncphpg5,30,Secure IDE Configuration,,,Secure IDE Configuration
+1n9tm4t,ncq1m8h,33,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1n9tm4t,ncvc5n8,34,Secure IDE Configuration,,,Secure IDE Configuration
+1n9tm4t,ncw16no,39,Secure IDE Configuration;Tool/Extension Monitoring;Use Version Control,,,
+1n9tm4t,ncvbxhx,40,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1n9tm4t,ncpm019,57,Secure IDE Configuration,,,Secure IDE Configuration
+1n9tm4t,nct2ssj,70,Check Organizational Compliance,,,
+1n9tm4t,ncs3imk,69,Check Organizational Compliance,,,
+1n9tm4t,ncvba42,106,Refer to Documentation;Secure IDE Configuration,,,Refer to Documentation;Secure IDE Configuration
+1n9tm4t,ncwa13p,111,Manual Code Verification,,,Manual Code Verification
+1n9tm4t,ncwc0xg,112,Manual Code Verification,,,Manual Code Verification
+1n9tm4t,ncwddce,114,Check Organizational Compliance,,,
+1n9tm4t,ncxzmgb,122,Check Organizational Compliance;Secure IDE Configuration,,,Check Organizational Compliance;Secure IDE Configuration;Tool/Extension Monitoring
+1n9tm4t,ncyw7pd,124,Check Organizational Compliance;Secure IDE Configuration,,,Manual Code Verification;Secure IDE Configuration
+1n9tm4t,ncra5pp,136,Check Organizational Compliance,,,
+1n9tm4t,nctkn8a,138,Secure IDE Configuration,,,Secure IDE Configuration
+1n9tm4t,ncpjw37,162,Secure IDE Configuration,,,Secure IDE Configuration
+1n9tm4t,ncra2e0,165,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1n9tm4t,ncvcq86,171,Secure IDE Configuration,,,Refer to Documentation;Secure IDE Configuration
+1n9tm4t,ncsp066,180,Check Organizational Compliance,,,Check Organizational Compliance
+1n9tm4t,ncsnf8q,181,Check Organizational Compliance,,,
+1n9tm4t,ncq7n3f,186,Check Organizational Compliance,,,Check Organizational Compliance
+1o2qthl,niqhdt0,0,Secure IDE Configuration,,,Secure IDE Configuration
+1o2qthl,niua9j2,2,Secure IDE Configuration,,,Tool/Extension Monitoring
+1n9tm4t,njacyrx,190,Secure IDE Configuration,,,
+1o2qthl,niwef6k,3,Check Organizational Compliance;Secure IDE Configuration,,,Check Organizational Compliance
+1o2qthl,niwlxsp,7,Sensitive File Protection,,,Sensitive File Protection
+1o2qthl,niqceyc,13,Secure IDE Configuration,,,
+1cxb96z,l51srgw,0,Secure IDE Configuration;Sensitive File Protection,,,Refer to Documentation;Secure IDE Configuration;Sensitive File Protection
+1k79uah,moxc5ll,1,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1k79uah,moykxgl,3,Secure IDE Configuration,,,Secure IDE Configuration
+1k79uah,moymaej,5,Sensitive File Protection,,,
+1k79uah,mozvzyg,9,Consult Vendors;Secure IDE Configuration,,,
+1k79uah,moyk965,10,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration
+1k79uah,moyjz8s,11,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1k79uah,mowqxcn,14,Secure IDE Configuration,,,Secure IDE Configuration
+1k79uah,mp52pj2,25,Secure IDE Configuration;Sensitive File Protection,,,
+1k79uah,nda2wab,27,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1k79uah,mrq1fcg,26,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1k79uah,neux8qf,29,Sensitive File Protection,,,Sensitive File Protection
+1k79uah,nesrq4g,28,Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1k79uah,moypsiy,34,Sensitive File Protection,,,
+1n7xw11,ncaykkk,0,Refer to Documentation,,,Refer to Documentation;Secure IDE Configuration
+1n7xw11,ncazbi8,5,Sandboxing,,,Sandboxing
+1n7xw11,ncb4vdf,7,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1n7xw11,ne22mg0,10,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1n7xw11,ncbx52y,9,Secure IDE Configuration,,Secure IDE Configuration,Sensitive File Protection
+1ndfqhj,ndi29ov,3,Use Local LLM,,,
+1ndfqhj,ndkkskj,4,Disable Telemetry;Tool/Extension Monitoring,,,Disable Telemetry;Secure IDE Configuration
+1ndfqhj,ndjstsd,7,Disable Telemetry,,,Disable Telemetry;Secure IDE Configuration
+1ndfqhj,ndp3n6c,17,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1ndfqhj,ndklt61,23,Use Local LLM,,,Use Local LLM
+1ndtpj0,ndmqtzx,0,Manual Code Verification;Refer to Documentation;Secure IDE Configuration;Tool/Extension Monitoring,,,Manual Code Verification;Secure IDE Configuration;Tool/Extension Monitoring
+1ndtpj0,ndmrv0v,2,Secure IDE Configuration,,,Secure IDE Configuration;Tool/Extension Monitoring
+1ndtpj0,ndp1r6l,4,Secure IDE Configuration,,,Secure IDE Configuration
+1ndtpj0,nejne7c,6,Sandboxing;Secure IDE Configuration,,,Sandboxing;Secure IDE Configuration;Sensitive File Protection
+1ndtpj0,npmyfyk,8,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1ndtpj0,npmz8v1,9,Sandboxing,,,Sandboxing;Secure IDE Configuration
+1l3zhdr,mw4zip9,0,Sensitive File Protection,,,Sensitive File Protection
+1mju0jz,n7gdxnf,0,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1l3zhdr,mw4tb3k,3,Consult Vendors,,,Consult Vendors
+1mju0jz,n7e690c,8,Consult Vendors;Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1mju0jz,n7eqmcr,7,Sensitive File Protection,,,
+1mju0jz,n7egnmt,12,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1mju0jz,n7ep3uw,9,Use Local LLM;Sandboxing;Secure IDE Configuration,,,Logging and Monitoring;Sandboxing;Secure IDE Configuration;Sensitive File Protection
+1mju0jz,n7fymya,11,Secure IDE Configuration,,,Logging and Monitoring;Secure IDE Configuration;Sensitive File Protection
+1mju0jz,n7dotni,14,Consult Vendors,,,Consult Vendors
+1mju0jz,n7emxt5,16,Logging and Monitoring,,,
+1mju0jz,n7flnfj,19,Secure IDE Configuration,,,Secure IDE Configuration
+1mju0jz,n7qd0sa,21,Secure IDE Configuration,,,Secure IDE Configuration;Sensitive File Protection
+1n1gbht,nayzmh9,0,Memory/Context Isolation,,,Memory/Context Isolation
+1mju0jz,n7isaih,23,Secure IDE Configuration;Sensitive File Protection,,,Secure IDE Configuration;Sensitive File Protection
+1n1gbht,nazeyoe,2,Memory/Context Isolation,,,Memory/Context Isolation;Secure IDE Configuration
+1n1gbht,nazilif,4,Memory/Context Isolation,,,Memory/Context Isolation
+1n1gbht,nay8ra4,14,Memory/Context Isolation,,,
+1n1gbht,nay9dz0,15,Consult Vendors,,,
+1n1gbht,naz0ora,34,Consult Vendors,,,Consult Vendors
+1n1gbht,nb6qqpq,38,Consult Vendors,,,Consult Vendors
+1ntq27d,ngvfbag,3,Consult Vendors,,,Consult Vendors
