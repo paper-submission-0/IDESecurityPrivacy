@@ -23,13 +23,13 @@ The table below summarizes how these principles were translated into operational
 
 | Standard Principle | ISO/IEC Reference | Operational Interpretation in This Study | Mapped Taxonomy Category | Example Incident |
 |-------------------|-----------------|----------------------------------------|------------------------|----------------|
-| Confidentiality | ISO/IEC 27001 | Protection against unauthorized disclosure or access to information assets, including source code, credentials, and configuration artifacts accessed by LIDE components or agents. | C1. Unauthorized File Operations, C8. Unauthorized Access, C11. Context Integrity Failure | IDE reads API keys from `.env` file or accesses files outside project scope |
-| Integrity | ISO/IEC 27001 | Protection against unauthorized or unintended modification of information or system artifacts, including changes generated or executed by autonomous IDE actions. | C1. Unauthorized File Operations, C3. Unsafe Generation, C4. User-Specified Constraint Violations | IDE modifies project files despite analysis-only instruction |
+| Confidentiality | ISO/IEC 27001 | Protection against unauthorized disclosure or access to information assets, including source code, credentials, and configuration artifacts accessed by LIDE components or agents. | C1. Unauthorized File Operations, C7. Unauthorized Data Access, C10. Context Integrity Failures | IDE reads API keys from `.env` file or accesses files outside project scope |
+| Integrity | ISO/IEC 27001 | Protection against unauthorized or unintended modification of information or system artifacts, including changes generated or executed by autonomous IDE actions. | C1. Unauthorized File Operations, C3. Unsafe Generation of Code, C4. User-Specified Constraint Violations | IDE modifies project files despite analysis-only instruction |
 | Availability | ISO/IEC 27001 | Ensuring information and development environments remain usable and operational, including preventing destructive or unstable automated actions. | C1. Unauthorized File Operations, C2. Operational Safety Issues | IDE deletes files or disrupts the build environment during automated execution |
-| Access Control (supporting control) | ISO/IEC 27002 | Failure to enforce authorization boundaries or permission constraints when executing LLM-generated commands or invoking external tools. Access control is treated as a mechanism supporting confidentiality and integrity. | C4. User-Specified Constraint Violations, C5. Third-Party Integration Risks, C8. Unauthorized Access | Agent executes commands beyond allowed workspace permissions |
-| Purpose Legitimacy and Specification | ISO/IEC 29100 | Collection or transmission of personal or proprietary data beyond task requirements or without clear justification during IDE operation. | C10. Unauthorized Transmission and Collection | Source code or telemetry transmitted externally without explicit approval |
-| Collection Limitation | ISO/IEC 29100 | Insufficient disclosure regarding data collection, retention, or secondary use of user data, reducing user awareness or control over information processing. | C7. Policy & Transparency Issues, C9. Privacy Leakage & Retention Violations | Conversation history stored or reused without clear notification |
-| Context Isolation (derived operational principle) | Derived from ISO/IEC 29100 privacy safeguarding considerations | Failure to isolate session or project contexts leads to unintended reuse or exposure of information across interactions. This principle is derived from privacy safeguarding requirements rather than being explicitly defined in ISO standards. | C11. Context Integrity Failure | Data from one project appears in another session |
+| Access Control (supporting control) | ISO/IEC 27002 | Failure to enforce authorization boundaries or permission constraints when executing LLM-generated commands or invoking external tools. Access control is treated as a mechanism supporting confidentiality and integrity. | C4. User-Specified Constraint Violations, C5. Third-Party Tools Integration Risks, C7. Unauthorized Data Access | Agent executes commands beyond allowed workspace permissions |
+| Purpose Legitimacy and Specification | ISO/IEC 29100 | Collection or transmission of personal or proprietary data beyond task requirements or without clear justification during IDE operation. | C9. Unauthorized Transmission & Collection | Source code or telemetry transmitted externally without explicit approval |
+| Collection Limitation | ISO/IEC 29100 | Insufficient disclosure regarding data collection, retention, or secondary use of user data, reducing user awareness or control over information processing. | C6. Lack of Transparency, C8. Privacy Leakage Violations | Conversation history stored or reused without clear notification |
+| Context Isolation (derived operational principle) | Derived from ISO/IEC 29100 privacy safeguarding considerations | Failure to isolate session or project contexts leads to unintended reuse or exposure of information across interactions. This principle is derived from privacy safeguarding requirements rather than being explicitly defined in ISO standards. | C10. Context Integrity Failures | Data from one project appears in another session |
 
 ---
 
@@ -37,37 +37,33 @@ The table below summarizes how these principles were translated into operational
 
 Our qualitative analysis identified six security issues and five privacy issues from Reddit posts. To better understand the origin of the identified risks, we categorized the issues into **system-level** and **LLM-level** concerns. The labeling was performed through iterative team discussions, focusing on where the primary responsibility lies in the IDE–LLM interaction pipeline. The labeling achieved full consensus (100% agreement) among the authors. Table 1 presents the distribution of these issues across IDEs.
 
-Issues were labeled as **system-level** when they originated from IDE operations, permissions, or execution environments. For example, **Unauthorized File Operations (UFO)** capture unsafe file access or modification, while **Operational Safety Issues (OSI)** reflect risks introduced by automated execution or tooling behavior. Some privacy risks, such as **Unauthorized Access (UA)**, also fall into this category because they are driven by IDE-side data handling. In contrast, **LLM-level** issues stem from model behavior or prompt interactions. Examples include **Unsafe Generation (UG)**, where models produce insecure outputs, and **Prompt-Level Security Violations (PLSV)**, which often arise from prompt injection or manipulation. Certain issues span both layers because model responses and weak system guardrails interact. Overall, seven issues were labeled as system-level, three as LLM-level, and one as shared. Table 1 shows that system-level concerns appear more frequently across IDEs.
+Issues were labeled as **system-level** when they originated from IDE operations, permissions, or execution environments. For example, **Unauthorized File Operations (UFO)** capture unsafe file access or modification, while **Operational Safety Issues (OSI)** reflect risks introduced by automated execution or tooling behavior. Some privacy risks, such as **Unauthorized Data Access (UA)**, also fall into this category because they are driven by IDE-side data handling. In contrast, **LLM-level** issues stem from model behavior or prompt interactions. Examples include **Unsafe Generation of Code (UG)**, where models produce insecure outputs, and **Privacy Leakage Violations (PLV)**, where model behavior contributes to unintended disclosure or retention of sensitive information. Certain issues span both layers because model responses and weak system guardrails interact. Table 2 shows that system-level concerns appear more frequently across IDEs.
 
-Across the IDEs presented in Table 2, a clear distinction emerges between system-level and LLM-level issue patterns. IDE-centric environments such as Cursor, Claude-integrated tools, and Codex-based workflows exhibit higher proportions of system-level concerns, particularly **UFO**, **OSI**, and **UA**, suggesting that risks often originate from features, file operations, and permission management rather than purely model behavior. For example, Codex and Replit show strong concentrations of **UFO**, indicating that aggressive execution or modification capabilities at the IDE layer introduce operational risks. Conversely, LLM-level issues such as **UG**, **PLSV**, and **Privacy Leakage Violations (PLV)** appear more frequently in Copilot and Windsurf, where generation-driven interactions and prompt handling play a larger role. VSCode demonstrates a more balanced distribution, reflecting its modular ecosystem where both extensions and model interactions contribute to risk exposure.
+Across the IDEs presented in Table 2, a clear distinction emerges between system-level and LLM-level issue patterns. IDE-centric environments such as Cursor, Claude-integrated tools, and Codex-based workflows exhibit higher proportions of system-level concerns, particularly **UFO**, **OSI**, and **UA**, suggesting that risks often originate from features, file operations, and permission management rather than purely model behavior. For example, Codex and Replit show strong concentrations of **UFO**, indicating that aggressive execution or modification capabilities at the IDE layer introduce operational risks. Conversely, LLM-level issues such as **UG** and **Privacy Leakage Violations (PLV)** appear more frequently in Copilot and Windsurf, where generation-driven interactions and prompt handling play a larger role. VSCode demonstrates a more balanced distribution, reflecting its modular ecosystem where both extensions and model interactions contribute to risk exposure.
 
 Overall, the system–LLM distinction clarifies responsibility boundaries. LLM-level risks relate to generation safety and prompt robustness. System-level risks relate to integration design and permission handling. The dominance of system-level categories in Table 1 indicates that stronger IDE guardrails could mitigate a large portion of security and privacy issues in LLM-assisted development environments.
 
 ### Table 2: Comparative percentage (%) distribution of system-level and LLM-level security and privacy issues across IDEs
 
 <table>
-  
   <thead>
     <tr>
-      <th rowspan="3">IDE</th>       
-         <th colspan="6">Security Issues</th>
-          <th colspan="6">Privacy Issues</th>
-      </tr>
+      <th rowspan="3">IDE</th>
+      <th colspan="5">Security Issues</th>
+      <th colspan="6">Privacy Issues</th>
+    </tr>
     <tr>
-      <!-- <th></th> -->
       <th colspan="4">System-Level</th>
-      <th colspan="2">LLM-Level</th>
+      <th colspan="1">LLM-Level</th>
       <th colspan="4">System-Level</th>
       <th colspan="2">LLM-Level</th>
     </tr>
     <tr>
-      <!-- <th></th> -->
       <th>UFO</th>
       <th>OSI</th>
       <th>USCV</th>
       <th>TPIR</th>
       <th>UG</th>
-      <th>PLSV</th>
       <th>LT</th>
       <th>UA</th>
       <th>PLV</th>
@@ -78,75 +74,70 @@ Overall, the system–LLM distinction clarifies responsibility boundaries. LLM-l
   </thead>
   <tbody>
     <tr>
-      <td>Cursor (107)</td>
-      <td>29.0</td>
-      <td>20.6</td>
-      <td>9.3</td>
-      <td>2.8</td>
-      <td>10.3</td>
-      <td>3.7</td>
-      <td>15.0</td>
-      <td>12.1</td>
-      <td>6.5</td>
-      <td>3.7</td>
+      <td>Cursor (130)</td>
+      <td>30.0</td>
+      <td>22.3</td>
+      <td>11.5</td>
+      <td>3.1</td>
+      <td>10.8</td>
+      <td>16.2</td>
+      <td>12.3</td>
+      <td>6.2</td>
+      <td>3.1</td>
       <td>1.9</td>
       <td>6.5</td>
     </tr>
     <tr>
-      <td>Claude (65)</td>
-      <td>32.3</td>
+      <td>Claude (89)</td>
+      <td>31.5</td>
       <td>16.9</td>
-      <td>18.5</td>
-      <td>6.2</td>
-      <td>12.3</td>
-      <td>0.0</td>
-      <td>16.9</td>
-      <td>6.2</td>
-      <td>7.7</td>
-      <td>3.1</td>
+      <td>19.1</td>
+      <td>6.7</td>
+      <td>13.5</td>
+      <td>15.7</td>
+      <td>7.9</td>
+      <td>7.9</td>
+      <td>2.2</td>
       <td>4.6</td>
       <td>7.7</td>
     </tr>
     <tr>
-      <td>Windsurf (21)</td>
-      <td>23.8</td>
-      <td>9.5</td>
+      <td>Windsurf (23)</td>
+      <td>30.4</td>
+      <td>8.7</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>23.8</td>
-      <td>0.0</td>
-      <td>19.0</td>
-      <td>19.0</td>
-      <td>4.8</td>
-      <td>9.5</td>
+      <td>21.7</td>
+      <td>21.7</td>
+      <td>17.4</td>
+      <td>4.3</td>
+      <td>8.7</td>
       <td>4.8</td>
       <td>4.8</td>
     </tr>
     <tr>
-      <td>Copilot (21)</td>
-      <td>14.3</td>
-      <td>14.3</td>
-      <td>4.8</td>
+      <td>Copilot (31)</td>
+      <td>19.4</td>
+      <td>12.9</td>
+      <td>12.9</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>4.8</td>
-      <td>33.3</td>
-      <td>9.5</td>
-      <td>9.5</td>
-      <td>14.3</td>
+      <td>6.5</td>
+      <td>29.0</td>
+      <td>9.7</td>
+      <td>6.5</td>
+      <td>9.7</td>
       <td>0.0</td>
       <td>9.5</td>
     </tr>
     <tr>
-      <td>Codex (17)</td>
-      <td>52.9</td>
-      <td>5.9</td>
-      <td>11.8</td>
+      <td>Codex (41)</td>
+      <td>58.5</td>
+      <td>4.9</td>
+      <td>7.3</td>
       <td>0.0</td>
-      <td>5.9</td>
-      <td>0.0</td>
-      <td>23.5</td>
-      <td>11.8</td>
+      <td>9.8</td>
+      <td>14.6</td>
+      <td>12.2</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -155,59 +146,56 @@ Overall, the system–LLM distinction clarifies responsibility boundaries. LLM-l
     <tr>
       <td>VS Code (16)</td>
       <td>12.5</td>
+      <td>31.2</td>
       <td>18.8</td>
+      <td>12.5</td>
+      <td>6.3</td>
+      <td>18.8</td>
+      <td>12.5</td>
+      <td>6.3</td>
+      <td>18.8</td>
+      <td>0.0</td>
+      <td>6.3</td>
+    </tr>
+    <tr>
+      <td>Replit (16)</td>
+      <td>50.0</td>
+      <td>18.8</td>
+      <td>12.5</td>
+      <td>0.0</td>
       <td>12.5</td>
       <td>6.3</td>
       <td>6.3</td>
       <td>6.3</td>
-      <td>18.8</td>
-      <td>18.8</td>
-      <td>6.3</td>
-      <td>25.0</td>
-      <td>0.0</td>
-      <td>6.3</td>
-    </tr>
-    <tr>
-      <td>Replit (15)</td>
-      <td>46.7</td>
-      <td>20.0</td>
-      <td>13.3</td>
-      <td>0.0</td>
-      <td>13.3</td>
-      <td>0.0</td>
-      <td>6.7</td>
-      <td>6.7</td>
-      <td>6.7</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>6.7</td>
     </tr>
     <tr>
-      <td>Other (22)</td>
-      <td>36.4</td>
-      <td>4.5</td>
-      <td>9.1</td>
+      <td>Other (37)</td>
+      <td>24.3</td>
+      <td>5.4</td>
+      <td>8.1</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>22.7</td>
-      <td>0.0</td>
-      <td>13.6</td>
-      <td>9.1</td>
+      <td>2.7</td>
+      <td>16.2</td>
+      <td>2.7</td>
+      <td>8.1</td>
+      <td>13.5</td>
       <td>0.0</td>
       <td>13.6</td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Abbreviations:</strong> UFO = Unauthorized File Operations; OSI = Operational Safety Issues; USCV = User-Specified Constraint Violations; TPIR = Third-Party Integration Risks; UG = Unsafe Generation; PLSV = Prompt-Level Security Violations; LT = Lack of Transparency; UA = Unauthorized Access; PLV = Privacy Leakage Violations; UTC = Unauthorized Transmission & Collection; CIL = Context Integrity Failures</p>
+<p><strong>Abbreviations:</strong> UFO = Unauthorized File Operations; OSI = Operational Safety Issues; USCV = User-Specified Constraint Violations; TPIR = Third-Party Tools Integration Risks; UG = Unsafe Generation of Code; LT = Lack of Transparency; UA = Unauthorized Data Access; PLV = Privacy Leakage Violations; UTC = Unauthorized Transmission & Collection; CIL = Context Integrity Failures</p>
 
 ---
 
 ## C. Post and Comment Analysis
 
 **Phase 1: Tool Identification and Data Acquisition.**  
-The data collection process began with the identification of a comprehensive list of LLM-powered IDEs (LIDEs), curated through a multi-source approach involving industry blog posts. Based on these tools, we targeted 46 subreddits, including both IDE-specific communities (e.g., *r/Cursor*) and general programming forums likely to host LIDE-related security discussions. To overcome Reddit’s standard pagination limits, we utilized the [ArcticShift API](https://github.com/ArthurHeitmann/arctic_shift), which allowed for the acquisition of a raw dataset comprising approximately **1.3 million posts** and **11.8 million comments** published between January 1, 2023, and November 18, 2025. The comprehensive list of all the subreddits and corresponding statistics is provided in Table 3.
+The data collection process began with the identification of a comprehensive list of LLM-powered IDEs (LIDEs), curated through a multi-source approach involving industry blog posts and tool documentation. Based on these tools, we targeted 46 subreddits, including both IDE-specific communities (e.g., *r/Cursor*) and general programming forums likely to host LIDE-related security and privacy discussions. To overcome Reddit’s standard pagination limits, we utilized the [ArcticShift API](https://github.com/ArthurHeitmann/arctic_shift), which allowed us to collect **1.5 million posts** and **14 million comments** published between January 1, 2023, and March 31, 2026. After automated security/privacy filtering and manual validation, the final relevant subset contained **446 posts** and **6,280 associated comments**. The comprehensive list of all subreddits and corresponding statistics is provided in Table 3.
 
 ![Prompt used to classify Reddit posts](figures/prompt_example_post_full.pdf) 
 ![Prompt used to classify Reddit posts](figures/full.png)  
@@ -227,59 +215,66 @@ The classification prompt (see Figure 1) underwent several iterations to pass a 
 
 ### Table 3: List of collected subreddits and associated statistics
 
-| Subreddit | Posts | Comments |
-|-----------|-------|---------|
-| AIPromptProgramming | 11,811 | 18,850 |
-| AI_Agents | 17,401 | 81,371 |
-| Anthropic | 4,987 | 33,805 |
-| CLine | 1,634 | 9,657 |
-| ChatGPT | 457,881 | 5,297,215 |
-| ChatGPTCoding | 18,806 | 138,951 |
-| ChatGPTPro | 23,019 | 187,945 |
-| ClaudeAI | 45,998 | 447,968 |
-| GithubCopilot | 3,667 | 25,145 |
-| IntelliJIDEA | 2,027 | 6,375 |
-| JetBrains | 3,753 | 24,028 |
-| LLMDevs | 11,731 | 33,100 |
-| LocalLLaMA | 85,722 | 1,105,666 |
-| MachineLearning | 89,718 | 277,586 |
-| OpenAI | 96,694 | 993,759 |
-| Python | 46,658 | 232,502 |
-| RooCode | 2,556 | 18,586 |
-| TraeIDE | 241 | 527 |
-| VisualStudioCode | 904 | 890 |
-| WebStorm | 224 | 607 |
-| ZedEditor | 2,028 | 7,797 |
-| aider | 3 | 0 |
-| boltnew | 116 | 75 |
-| boltnewbuilders | 3,670 | 12,808 |
-| codeium | 2,065 | 11,553 |
-| codex | 1,109 | 9,218 |
-| copilotx | 2 | 1 |
-| cursor | 19,015 | 139,002 |
-| kilocode | 937 | 4,430 |
-| kiroIDE | 893 | 4,208 |
-| nocode | 14,874 | 49,248 |
-| programming | 75,765 | 712,773 |
-| pycharm | 1,575 | 4,173 |
-| replit | 6,324 | 29,955 |
-| vibecoding | 17,652 | 103,047 |
-| vscode | 19,072 | 72,161 |
-| warpdotdev | 329 | 1,859 |
-| webdev | 37,000 | 292,584 |
-| windsurf | 2,167 | 11,980 |
+| Subreddit | Total Posts | Total Comments | Filtered Post Count | Filtered Post Comments |
+|-----------|------------:|---------------:|--------------------:|-----------------------:|
+| AIPromptProgramming | 14,873 | 22,321 | 0 | 0 |
+| AI_Agents | 20,401 | 95,122 | 6 | 41 |
+| Anthropic | 8,997 | 68,533 | 2 | 9 |
+| Artificial | 61,127 | 311,957 | 0 | 0 |
+| ArtificialInteligence | 116,159 | 779,280 | 0 | 0 |
+| CLine | 1,945 | 10,832 | 7 | 42 |
+| ChatGPT | 491,881 | 5,863,312 | 40 | 412 |
+| ChatGPTCoding | 18,806 | 138,951 | 22 | 314 |
+| ChatGPTPro | 25,153 | 204,366 | 0 | 0 |
+| ClaudeAI | 82,214 | 734,079 | 81 | 1,627 |
+| GithubCopilot | 7,348 | 57,628 | 22 | 217 |
+| IntelliJIDEA | 2,295 | 7,286 | 1 | 0 |
+| JetBrains | 4,505 | 28,545 | 5 | 24 |
+| LLMDevs | 15,218 | 44,681 | 3 | 14 |
+| LanguageTechnology | 5,033 | 12,031 | 0 | 0 |
+| LocalLLaMA | 106,231 | 1,361,751 | 3 | 196 |
+| MachineLearning | 90,718 | 280,991 | 0 | 0 |
+| OpenAI | 100,694 | 1,030,958 | 8 | 71 |
+| Python | 46,658 | 232,502 | 0 | 0 |
+| RooCode | 2,904 | 20,240 | 2 | 13 |
+| TraeIDE | 260 | 535 | 3 | 33 |
+| VisualStudioCode | 973 | 924 | 0 | 0 |
+| WebStorm | 246 | 637 | 0 | 0 |
+| ZedEditor | 2,753 | 11,916 | 7 | 43 |
+| aider | 9 | 1 | 0 | 0 |
+| boltnew | 119 | 75 | 0 | 0 |
+| boltnewbuilders | 4,170 | 13,861 | 1 | 13 |
+| codeium | 2,065 | 11,553 | 9 | 81 |
+| codex | 6,238 | 52,347 | 22 | 300 |
+| copilotx | 2 | 1 | 0 | 0 |
+| cpp | 16,278 | 223,684 | 0 | 0 |
+| cursor | 24,718 | 180,278 | 110 | 1,206 |
+| kilocode | 1,226 | 5,465 | 1 | 8 |
+| kiroIDE | 1,229 | 5,805 | 2 | 36 |
+| learnmachinelearning | 52,441 | 201,226 | 0 | 0 |
+| nocode | 18,808 | 61,549 | 1 | 21 |
+| ollama | 9,087 | 52,562 | 0 | 0 |
+| perplexity_ai | 15,446 | 93,073 | 1 | 9 |
+| programming | 84,670 | 798,275 | 5 | 357 |
+| pycharm | 1,675 | 4,440 | 0 | 0 |
+| replit | 8,324 | 38,877 | 15 | 127 |
+| vibecoding | 42,891 | 251,642 | 44 | 782 |
+| vscode | 21,720 | 80,330 | 8 | 135 |
+| warpdotdev | 446 | 2,375 | 0 | 0 |
+| webdev | 51,000 | 385,807 | 2 | 25 |
+| windsurf | 3,917 | 22,577 | 13 | 124 |
 
 ---
 
 **Phase 3: Manual Evaluation and Validation of the Posts.**  
-While the LLM initially flagged 2,634 posts as relevant, we conducted a rigorous manual evaluation phase to verify the accuracy of these labels. Two researchers dedicated approximately 40 man-hours to a blind review of the flagged content, achieving a **Cohen’s kappa = 0.97**, confirming the effectiveness of the grounded prompt. Following this manual verification, the final dataset was refined to **340 posts** that directly and substantively discuss security or privacy vulnerabilities within LLM-assisted development environments.
+While the LLM initially flagged 3,801 posts as relevant, we conducted a rigorous manual evaluation phase to verify the accuracy of these labels. Two researchers dedicated approximately 60 man-hours to a blind review of the flagged content, achieving a **Cohen’s kappa = 0.97**, confirming the effectiveness of the grounded prompt. Following this manual verification, the final dataset was refined to **446 posts** that directly and substantively discuss security or privacy vulnerabilities within LLM-assisted development environments.
 
 ---
 
 **Phase 4: Automated Extraction and Label Generation from Comments.**  
-Building on the validated set of 340 posts, we analyzed all associated comment threads to capture practitioner-driven mitigation strategies. In total, **5,144 comments** were collected and processed. This phase focused on high-recall extraction of actionable suggestions, intentionally prioritizing coverage over precision.
+Building on the validated set of 446 posts, we analyzed all associated comment threads to capture practitioner-driven mitigation strategies. In total, **6,280 comments** were collected and processed. This phase focused on high-recall extraction of actionable suggestions, intentionally prioritizing coverage over precision.
 
-We employed two large language models (GPT-OSS:20B and Qwen3:32B) to extract explicit security- or privacy-related recommendations from comments using the prompt shown in Figure 2. The prompt instructed the model to return only concrete actions, safeguards, or procedural advice, excluding opinions, confirmations, or general discussions. This initial pass produced **2,559 candidate suggestion fragments**.
+We employed two large language models (GPT-OSS:20B and Qwen3:32B) to extract explicit security- or privacy-related recommendations from comments using the prompt shown in Figure 2. The prompt instructed the model to return only concrete actions, safeguards, or procedural advice, excluding opinions, confirmations, or general discussions. This initial pass produced **2,737 candidate suggestion fragments**.
 
 ![Initial Prompt to collect suggestions](figures/comment_prompt_phase1.pdf)  
 ![Initial Prompt to collect suggestions](figures/1.png)  
@@ -329,14 +324,14 @@ We iteratively refined this prompt through trial-and-error corrections informed 
 ---
 
 **Phase 6: Full-Dataset Labeling and Error Characterization.**  
-Using the refined prompt and finalized codebook, all 5,145 comments were labeled. The automated labeling produced the following distribution:
+Using the refined prompt and finalized codebook, 5,725 comments were labeled. The automated labeling produced the following distribution:
 
-- **1,234 comments** assigned to one of the 13 mitigation categories  
+- **1,392 comments** assigned to one of the 13 mitigation categories  
 - **18 comments** labeled as *uncategorized*  
-- **3,886 comments** marked as *not a suggestion*  
-- **7 comments** with parsing errors  
+- **4,317 comments** marked as *not a suggestion*  
+- **8 comments** with parsing errors  
 
-Manual validation identified four additional mitigation themes not captured in the automated labeling: **Data Redaction (3)**, **Disconnecting from the Internet (1)**, **Upgrading Subscription Plans (1)**, and **Data Recovery (1)**. All labeling errors were manually corrected, resulting in a final dataset reflecting the full breadth of practitioner-driven mitigation strategies.
+Manual validation identified six additional mitigation themes not captured in the automated labeling: **Data Redaction (3)**, **Upgrading Subscription Plans (2)**, **Disconnecting from the Internet (1)**,  and **Data Recovery (1)**. All labeling errors were manually corrected, resulting in a final dataset reflecting the full breadth of practitioner-driven mitigation strategies.
 
 
 ## D. LIDE Features
